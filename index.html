@@ -1,0 +1,1057 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- To include Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- To include my favicon -->
+    <link rel="icon" href="../assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- To link external CSS -->
+    <link rel="stylesheet" href="../css/index.css" />
+    <title>T O R I I</title>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../src/index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To Align the Elements to the Right -->
+            <div class="m-auto"></div>
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white" href="../src/index.html"
+                      >Home</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#partners"
+                      >Partners</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#discover"
+                      >Discover</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#sponser"
+                      >Sponsers</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#stats">Stats</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#faq">FAQ</a>
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#reachus"
+                      >Reach Us</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Culture
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="../src/culture.html"
+                      >Culture</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Entertainment
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="../src/entertainment.html"
+                      >Entertainment</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../src/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../src/login.html">Login</a>
+              </li>
+              <!-- To include navbar dropdown -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2800">
+          <img
+            src="../assets/Banner1.jpg"
+            class="d-block w-100"
+            alt="Banner1"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="../assets/Banner4.jpg"
+            class="d-block w-100"
+            alt="Banner4"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="../assets/Banner3.jpg"
+            class="d-block w-100"
+            alt="Banner3"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="../assets/Banner2.jpg"
+            class="d-block w-100"
+            alt="Banner2"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="../assets/Banner5.jpg"
+            class="d-block w-100"
+            alt="Banner5"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Partner section -->
+    <div id="partners" class="container-fluid pb-5">
+      <div class="row justify-content-evenly">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-2 text-secondary">
+            Our Collaborating Partners
+          </h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-3">
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="../assets/21.jpg" alt="" />
+          <h5 class="pt-3">GourmetPro</h5>
+          <p style="text-align: justify">
+            GourmetPro is a company based in Japan dedicated to help the food
+            and beverage industry grow internationally. Our experts combine more
+            than 20 years of immersion and achievements in the Digital
+            Innovation field and the Food & Beverage market in Japan.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="../assets/22.jpg" width="283px" alt="" />
+          <h5 class="pt-3">Japan Airlines</h5>
+          <p style="text-align: justify">
+            Japan Airlines customers travelling on Vistara will enjoy
+            complimentary meals and will be able to choose between three
+            different cabins, including India’s only Premium Economy class.
+            Japan Airlines Mileage Bank members can also earn miles when booking
+            on ‘JL’ coded Vistara flights.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="../assets/23.jpg" width="195px" alt="" />
+          <h5 class="pt-3">Okura Hotels & Resorts</h5>
+          <p style="text-align: justify">
+            With The Okura Tokyo as its flagship, Okura Hotels & Resorts (OHR)
+            is a hotel group with a presence in Japan and around the world. Its
+            facilities mix Japanese traditional beauty and Western
+            functionality, and OHR provides goods and services that strive to
+            offer meticulous Japanese hospitality.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Section -->
+    <div
+      id="discover"
+      class="container-fluid embed-responsive pb-5 bg-dark text-white"
+    >
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-5">
+        <div class="col-md-12 mt-5">
+          <h4 class="display-6 text-center mt-1 mb-5 text-secondary">
+            Discover Japan
+          </h4>
+          <iframe
+            class="youtube-video"
+            src="https://www.youtube.com/embed/CxuiFNYnEr4"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+      <!-- Inserting some Disco Information -->
+      <br />
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/zhi5cd01p7wgj7gjtizf3oh8apdu_1616592423_shutterstock_312911786.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Mount Fuji</h6>
+          <p style="text-align: justify">
+            Japan’s Mount Fuji or most commonly known as “Fuji-san,” is an
+            active Stratovolcano in the southwest of Tokyo. Fuji-san, as the
+            natives like to call it, is among Japan’s “Three Holy Mountains”
+            including Mount Tate and Mount Haku. It is situated in
+            Fuji-Hakone-Izu National Park, standing tall at 3,776.24 meters. Mt.
+            Fuji is a symbolic beauty in and around Japan for widely known
+            reasons; it is not only a scenic beauty that attracts tourists from
+            all around the world but also a cultural icon of Japan.
+            <br /><br />
+            The Japanese cultural art and photography is highly inspired by the
+            “snow-capped” mountain and is often witnessed in paintings and
+            pictures. This is not even half of what Mt. Fuji has to offer. Every
+            year, almost more than a million tourists visit the mountain out of
+            which approximately 300,000 climb up to its peak.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Tokyo Disneyland</h6>
+          <p style="text-align: justify">
+            This massive, 115-acre large theme park is one of the best places to
+            visit in Tokyo, whether you are travelling alone or with kids or
+            with your partner. It is the very first Disneyland to have been
+            built outside of the United States and is to date, one of the main
+            attractions in Japan. Apart from mind-boggling rides and incredible
+            food, you can also explore Tokyo DisneySea, which is an adjoining
+            waterpark that is just as lavish.
+            <br /><br />
+            Location: 1-1 Maihama, Urayasu, Chiba 279-0031, Japan
+            <br /><br />
+            Timings: Monday to Sunday (8:00 a.m. – 10:00 p.m.)
+            <br /><br />
+            Entry fees: For 2 days – 14,800 yen for adults, 8,800 yen for
+            children
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/8l3nfuzgvhuh0eyewnb0gav1t7w8_1617351605_mickey-mause-832112_1920.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/prlft4rmm7y6y2ja7qs3wngxt9nj_1617188433_100k1f000001gugmz756A.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">
+            Tempozan Giant Ferris Wheel
+          </h6>
+          <p style="text-align: justify">
+            When looking for Places to visit in Osaka, go to the Tempozan Giant
+            Ferris Wheel and enjoy some of the most spectacular views of Osaka,
+            especially the port area and the Tempozan Harbour Village. Ranking
+            amongst some of the largest Ferris wheels in Asia, the Tempozan
+            Giant Ferris Wheel stands tall at a staggering 112 metres, with a
+            diameter of 100 metres. This Ferris wheel has been in operation
+            since the early 1997 and offers an adventurous 17-minute ride. While
+            it is enjoyable throughout the day, one must ride the Ferris wheel
+            especially at night, when it is brightly lit with coloured lights.
+            <br /><br />
+            Location: 1-1-10 Kaigandori, Minato Ward, Osaka, Osaka Prefecture
+            552-0022
+            <br /><br />
+            Timings: 10:00 a.m. to 08:00 p.m.
+            <br /><br />
+            Entry Fee: ¥ 800 per adult
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Osaka Aquarium Kaiyukan</h6>
+          <p style="text-align: justify">
+            Topping the list of some of the most unique Osaka beautiful places
+            is the Osaka Aquarium Kaiyukan. With a structure that resembles
+            giant blocks of Lego, this aquarium is one of the biggest in the
+            world.
+            <br /><br />
+            Home to 27 large tanks, the aquarium is a great place to catch
+            sights of freshwater marine species, in addition to the native
+            Japanese mammals and reptiles. For a more unique experience, visit
+            the aquarium at night, when all the tanks are lit up, making the
+            ambience more magical.
+            <br /><br />
+            Timings: 10:30 a.m. to 07:00 p.m.
+            <br /><br />
+            Entry Fee: ¥ 2,550 for adults, ¥ 1,300 for children
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/b9yezwxe78kcf99vkg0pkdtdekqd_1617188022_thumb_11661626_cover_header.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 5th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/5htcvfjekjvbq71qrlgbpxtfap82_1618899087_shutterstock_721991470.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Ginza</h6>
+          <p style="text-align: justify">
+            Ginza is one of the poshest, most upmarket places to visit in Tokyo,
+            with an abundance of shops, restaurants, boutiques, lifestyle
+            experiences and much more. You can also explore galleries,
+            nightclubs and cafes for a wholesome experience that will make your
+            visit to Tokyo memorable.
+            <br /><br />
+            All luxury and boutique brands have a store in Ginza, which is
+            considered a shopper’s paradise. The Ginza Wako building is symbolic
+            of the entire district, and the good news is, window shopping here
+            is absolutely free!
+            <br /><br />
+            Location: South of Yaesu, Tokyo
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 6th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Inokashira Park</h6>
+          <p style="text-align: justify">
+            Another natural haven in the middle of the city of Tokyo is the
+            Inokashira Park – a natural oasis that is loved by tourists and
+            locals alike. Here, you can access features such as manicured
+            gardens, recreational facilities, a bucolic pond, a shrine and a
+            lawn fringed with cherry blossom trees.
+            <br /><br />
+            The fact that the park is also home to a museum and an aquarium,
+            along with a Studio Ghibli Museum makes it one of the most peaceful
+            and fascinating places in Tokyo.
+            <br /><br />
+            Location: 1 Chome-18-31 Gotenyama, Kichijoji Minamicho, Tokyo
+            180-0005, Japan
+            <br /><br />
+            Entry fees: 400 yen
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/ff9ne69wjyszbq1k1clsjfk1c4dv_1617358384_Inokashira-Park-1024x683.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 7th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/6j90h7gz35gx8dbktpwamckuni57_1618899154_shutterstock_1182931888.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Studio Ghibli Museum</h6>
+          <p style="text-align: justify">
+            Studio Ghibli is one of the most famous artistic products to have
+            come out of Japan and many people visit the country simply to learn
+            more about the animation studio of Miyazaki Hayao, who has produced
+            some of the most emotional and well-made films in the world. If you
+            too are interested in learning more about these famous films and
+            animation, one of the best places in Tokyo is the Ghibli Museum in
+            Inokashira Park in Mitaka. You can check out life-size figurines,
+            robots, drawings, original drafts and much more at the museum.
+            <br /><br />
+            Location: 1 Chome-1-83 Shimorenjaku, Mitaka, Tokyo 181-0013, Japan
+            <br /><br />
+            Timings: Tuesday to Sunday (10:00 a.m. – 6:00 p.m.)
+            <br /><br />
+            Entry fees: 1000 yen
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 8th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Tsukiji Hongan Ji</h6>
+          <p style="text-align: justify">
+            This Jodo Shinshu Buddhist Temple can be found in the Tsukiji
+            district of Tokyo, besides the popular area of Ginza. The temple is
+            built in both Asian and European architectural styles, which makes
+            it the most unique Buddhist temple in the country. Most of the
+            temple structure, as well as the statues and motifs in it are made
+            of stone, which makes it distinctly unique. Today it is a meeting
+            place for intellectuals from all faiths and communities, who come to
+            offer their respects and engag0065 in prayer at the temple.
+            <br /><br />
+            Location: 3 Chome-15-1 Tsukiji, Chuo City, Tokyo 104-0045, Japan
+            <br /><br />
+            Timings: Monday to Sunday (6:00 a.m. – 4:00 p.m.)
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/e5f438umy5kix56t1stawpi928a0_1618899525_shutterstock_1427133110.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 9th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/q1ibrb7a4xu4nq4a2rql7r0u3zft_1617177625_river-5572289_1920.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Dotonbori</h6>
+          <p style="text-align: justify">
+            Considered to be one of the top Osaka beautiful places, Dotonbori is
+            a famous area in the city, known for its busy walkways and bridges.
+            This entertainment district in Osaka dates back to the 1600s, and is
+            the place where numerous Japanese theatres originated. In recent
+            times, Dotonbori is a popular area to enjoy the vibrant nightlife
+            and food scene of Osaka.
+            <br /><br />
+            Besides that, Dotonbori is also known for the many large neon signs
+            and billboards that are displayed here. You can catch the sign of
+            the famed Glico Maker here, in addition to other unique signs which
+            are reflected in the waters every night.
+            <br /><br />
+            Location: Dotonbori, Namba, Chuo-ku Osaka, 542-0071, Japan
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 10th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Amemura</h6>
+          <p style="text-align: justify">
+            Also known as Amerikamura or the American Village, Amemura is
+            amongst the trendiest places to go in Osaka. Whether you wish to
+            shop or get drunk with your friends, or simply hang out, this is the
+            place to be. Home to numerous fashion stores, boutiques and thrift
+            shops, you can also find many bars, nightclubs and restaurants here.
+            <br /><br />
+            Amemura also has a replica of the Statue of Liberty, along with a
+            Triangle Park, where you can find skateboarders and other local
+            adventure junkies. It is also a great place to simply soak in views
+            of an Americanised Osaka, owing to its East meets West vibes.
+            <br /><br />
+            Location: Chuo Ward Osaka, Osaka Prefecture, 542-0086, Japan
+            <br /><br />
+            Timings: 01:30 p.m. to 08:00 p.m.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/p8j21hegqw0bms3xb5bmdhyumt22_1618899586_shutterstock_1737784967.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Sponser Div -->
+    <div
+      id="sponser"
+      class="container-fluid pb-5"
+      style="background-color: #f1f1f1f1"
+    >
+      <div class="row justify-content-evenly">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-1 text-secondary">
+            Our Sponsers
+          </h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-2 pb-2 px-2">
+        <div class="col-md-2 mt-5">
+          <img class="img-fluid soundtest" src="../assets/Support1.jpg" alt="Support1" />
+          <h5>We Love Japan Tour</h5>
+          <p style="text-align: justify">
+            The We Love Japan Tour is a non-profit event with the goal to
+            promote Japan and her lesser known attractions as an enticing
+            tourist destination.
+          </p>
+        </div>
+        <div class="col-md-2 mt-5">
+          <img class="img-fluid soundtest" src="../assets/Support3.jpg" alt="Support3" />
+          <h5>Japan Foundation</h5>
+          <p style="text-align: justify">
+            The Japan Foundation conducts programs in the three major areas. The
+            Japanese-Language Education Overseas, Japanese Studies,
+            International Dialogue.
+          </p>
+        </div>
+        <div class="col-md-2 mt-5">
+          <img
+            class="img-fluid soundtest"
+            src="../assets/Support4.jpg"
+            width="170x"
+            alt="Support4"
+          />
+          <h5>WWF Japan</h5>
+          <p style="text-align: justify">
+            WWF Japan takes on the view of nature as human beings in nature, and
+            addresses Japan's domestic and international issues related to
+            Japan.
+          </p>
+        </div>
+        <div class="col-md-2 mt-5">
+          <img class="img-fluid soundtest" src="../assets/Support2.jpg" alt="Support2" />
+          <h5>Animal Rights Japan</h5>
+          <p style="text-align: justify">
+            The Animal Rights Japan works on issues involving the welfare of
+            stray animals and opposes animal-testing, fur-farming, safe-guarding
+            them.
+          </p>
+        </div>
+      </div>
+    </div>
+
+<!-- Progress Section with bars and stats -->
+    <div
+      id="stats"
+      class="container-fluid"
+      style="background-color: rgb(24, 23, 23); color: white"
+    >
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-sm-12">
+          <h4 class="display-6 text-center mt-1 mb-5 text-secondary">
+            Tourist Population
+          </h4>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="stat-image img-fluid"
+            src="https://heenatours.in/blog/wp-content/uploads/2018/09/Japan-copy.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <p class="mb-1 mt-3">American Tourists</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar"
+              role="progressbar"
+              style="width: 30%"
+              aria-valuenow="10"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="mb-1 mt-3">Taiwanese Tourists</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar bg-success"
+              role="progressbar"
+              style="width: 24%"
+              aria-valuenow="25"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="mb-1 mt-3">Indian Tourists</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar bg-info"
+              role="progressbar"
+              style="width: 45%"
+              aria-valuenow="50"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="mb-1 mt-3">Chinese Tourists</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar bg-warning"
+              role="progressbar"
+              style="width: 75%"
+              aria-valuenow="75"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+
+          <p class="mb-1 mt-3">Korean Tourists</p>
+          <div class="progress">
+            <div
+              class="progress-bar progress-bar bg-danger"
+              role="progressbar"
+              style="width: 55%"
+              aria-valuenow="100"
+              aria-valuemin="0"
+              aria-valuemax="100"
+            ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Accordian Section -->
+    <div id="faq" class="container-fluid" style="background-color: #f1f1f1f1">
+      <div class="row justify-content-evenly px-2 py-5">
+        <div class="col-sm-12">
+          <h4 class="display-6 text-center mt-1 mb-3 text-secondary">FAQ</h4>
+        </div>
+        <div class="col-md-5 col-sm-12 m-2">
+          <div
+            class="accordion accordion-flush border"
+            id="accordionFlushExample"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingOne">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseOne"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseOne"
+                >
+                  What can I bring through Customs?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseOne"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingOne"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Baggage or accompanying items which are deemed as being for
+                  personal use only, and are within the restricted quantity of
+                  duty-free as specified by the customs regulations. Find out
+                  more about Customs rules and regulations from the JNTO:
+                  Customs
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingTwo">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseTwo"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseTwo"
+                >
+                  Would you recommend bringing Travelers Checks, cash or credit
+                  cards?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseTwo"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingTwo"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Japan has one of the lowest crime rates in the world, so
+                  carrying cash is not a real problem. Travelers Checks are also
+                  an option, although it is wise to have these available in
+                  either Japanese yen, or US dollars. Travelers Checks may not
+                  be accepted outside of major hotels and banks.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingThree">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapseThree"
+                  aria-expanded="false"
+                  aria-controls="flush-collapseThree"
+                >
+                  Is Japan expensive?
+                </button>
+              </h2>
+              <div
+                id="flush-collapseThree"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingThree"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  In reality, Tokyo and other large Japanese cities are not any
+                  more expensive than other big cities worldwide. If you make
+                  smart choices, the wide range of shops, restaurants and
+                  services mean that your yen can stretch relatively far.
+                  100-yen shops and budget stores abound selling extremely
+                  affordable necessities and reasonably priced gifts, and
+                  inexpensive restaurants serve meals that cost 1,000 yen or
+                  less.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd Accordian -->
+        <div class="col-md-5 col-sm-12 my-2">
+          <div
+            class="accordion accordion-flush border"
+            id="accordionFlushExample"
+          >
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingfour">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsefour"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsefour"
+                >
+                  Will travel in Japan be difficult without Japanese language
+                  skills?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsefour"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingfour"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Traveling in a country where you don't speak the language can
+                  be both challenging and rewarding. Even if you don't speak any
+                  Japanese, finding your way around Japan shouldn't be too
+                  difficult. English is generally understood throughout the
+                  country, particularly in major cities and tourist centers.
+                  Combine this with some positive body language and gestures,
+                  and you shouldn't encounter many problems.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingfive">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsefive"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsefive"
+                >
+                  Is it true that trains are the most convenient way to travel
+                  in Japan?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsefive"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingfive"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Railway networks criss-cross throughout the nation. Japan
+                  Railways (JR)–including the shinkansen lines–connect all major
+                  cities nationwide, while private railway companies operate in
+                  each region. Large cities also have plenty of subway and
+                  monorail options. The Japan Railways Group: Japan Rail Pass is
+                  a very economical and convenient method of accessing unlimited
+                  travel on JR lines within Japan, including bullet trains–with
+                  the exception of the Nozomi.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="flush-headingsix">
+                <button
+                  class="accordion-button collapsed text-secondary"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#flush-collapsesix"
+                  aria-expanded="false"
+                  aria-controls="flush-collapsesix"
+                >
+                  What kinds of accommodation is available in Japan?
+                </button>
+              </h2>
+              <div
+                id="flush-collapsesix"
+                class="accordion-collapse collapse"
+                aria-labelledby="flush-headingsix"
+                data-bs-parent="#accordionFlushExample"
+              >
+                <div class="accordion-body">
+                  Japan offers a wide variety of accommodation to suit all
+                  tastes and budgets. For western-style lodgings, there are
+                  luxury hotels and business hotels. If you prefer
+                  Japanese-style accommodations, try a Ryokan (Japanese-style
+                  inn) and Minshuku (private guest-houses providing a bed and
+                  meals). For travelers on low budgets, try the Japanese Inn
+                  Group and Youth Hostels.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reach us -->
+    <div id="reachus" class="container-fluid bg-dark embed-responsive">
+      <div class="row justify-content-evenly px-2 pt-3 pb-4">
+        <h5 class="display-6 text-center mt-2 mb-1 text-secondary">Reach Us</h5>
+        <div
+          class="col-md-3 col-sm-5 mt-2 text-white"
+          style="text-align: justify"
+        >
+          <p class="mt-3 mb-2"><strong>Address:</strong></p>
+          <p>
+            67 Kitanokamihakubaichō, Kita Ward, Kyoto, <br />603-8325, Japan
+          </p>
+          <br />
+          <p>
+            Japan is one of the oldest civilizations and has a beautiful and
+            diverse history. The stunning, diverse scenery with mountains and
+            breathtaking views, which are much appreciated by the Japanese,
+            offers so many different experiences that attract tourists from all
+            corners of the world.
+          </p>
+
+          <p>
+            Although Japan is accessible again, the country currently only
+            permits leisure tourists to come in organized groups rather than as
+            individuals.
+          </p>
+          <p>
+            <span style="color: red">T O R I I</span> - Meaning a gateway to
+            spirituality, is designed for those to experince the rich tradition
+            and culture of Japan.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-5 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Socials:</strong></p>
+          <ul>
+            <li>
+              <a id="asocial" href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook text-primary"></i> Facebook</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram text-danger"></i> Instagram</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://twitter.com/" target="_blank"
+                ><i class="fa-brands fa-twitter text-info"></i> Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://www.tumblr.com/login"
+                target="_blank"
+                ><i class="fa-brands fa-tumblr text-success"></i> Tumbler</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://in.pinterest.com/login/"
+                target="_blank"
+                ><i class="fa-brands fa-pinterest text-danger"></i> Pinterest</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://discord.com/" target="_blank"
+                ><i class="fa-brands fa-discord text-primary"></i> Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Google Maps:</strong></p>
+          <p>
+            You can find us at this location
+            <i class="fa-solid fa-location-dot text-danger"></i>
+          </p>
+          <iframe
+            class="map"
+            width="90%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.4466134648858!2d135.73211344923405!3d35.027248980068556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010793235431d5%3A0x342ba00cbeae2a33!2zSmFwYW4sIOOAkjYwMy04MzI1IEt5b3RvLCBLaXRhIFdhcmQsIEtpdGFub2thbWloYWt1YmFpY2jFjSwgNjcg5bCP6YeO6ICz6by75ZK95ZaJ56eR5Yy76Zmi!5e0!3m2!1sen!2sin!4v1659448890181!5m2!1sen!2sin"
+            width="600"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+
+    
+    <!-- Footer Section -->
+    <div id="footer" class="container-fluid">
+      <div class="row justify-content-evenly px-2 pt-3">
+        <div class="col-sm-12">
+          <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+        </div>
+      </div>
+    </div>
+
+<!-- Bootstrap CDN for JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery Script tag for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Popper for navbar dropdown -->
+  </body>
+</html>
