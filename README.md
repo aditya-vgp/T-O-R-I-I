@@ -9,7 +9,7 @@ Project Details: When one hears about Japan what most often comes to mind is Ani
 Skills Used: HTML, CSS, Bootstrap, MySQL, Java Servlet & JSP
 
 
-🛑 THIS PROJECT IS STILL UNDER DEVELOPMENT AND MAY SUBJECTED TO FURTHER CHANGES
+🛑 THIS PROJECT IS STILL UNDER DEVELOPMENT AND MAY BE SUBJECT TO FURTHER CHANGES
 
 
 Hope you like the project :)
