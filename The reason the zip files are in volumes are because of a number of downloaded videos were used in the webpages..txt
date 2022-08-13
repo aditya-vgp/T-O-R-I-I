@@ -2,4 +2,4 @@ The reason the zip files are in volumes are because of a number of downloaded vi
 
 You will get the full project working once all the files are extracted.
 
-I'm attaching a sample file called as "index.html" to show how the design may look, hope yopu like it! :)
+I'm attaching a sample file called "index.html" to show how the design may look. Hope you like it! :)
