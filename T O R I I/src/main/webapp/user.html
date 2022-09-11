@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T O R I I</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/blog.css" />
+    <!-- Include Favicon -->
+    <link rel="icon" href="assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I - とりい</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To Align the Elements to the Right -->
+            <div class="m-auto"></div>
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li> -->
+              
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  <img src="https://cdn-icons-png.flaticon.com/512/3737/3737581.png" width="22px" alt="">
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#packages"
+                      >Packages</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#feedback"
+                      >Feedback</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="#bookings"
+                      >Bookings</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#reachus"
+                      >Reach Us / コンタクト・アス</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link mx-2" href="userblog.html">Blog・ブログ</a>
+              </li>
+          <!-- <li class="nav-item">
+                <a class="nav-link mx-2 text-secondary" href="logout.html" style="text-decoration: none;">logout</a>
+              </li>-->    
+             
+              
+              <!-- To include navbar dropdown -->
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+
+    <!-- carousel -->
+    <div
+    id="usercarousel"
+    class="carousel slide carousel-fade mt-5"
+    data-bs-ride="carousel"
+  >
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="2800">
+        <img
+          src="assets/userbanner1.jpg"
+          class="d-block w-100"
+          alt="Banner1"
+        />
+        </div>
+      <div class="carousel-item" data-bs-interval="2800">
+        <img
+          src="assets/userbanner2.jpg"
+          class="d-block w-100"
+          alt="Banner4"
+        />
+      </div>
+      <div class="carousel-item" data-bs-interval="2800">
+        <img
+          src="assets/userbanner3.jpg"
+          class="d-block w-100"
+          alt="Banner3"
+        />
+      </div>
+      <div class="carousel-item" data-bs-interval="2800">
+        <img
+          src="assets/userbanner4.jpg"
+          class="d-block w-100"
+          alt="Banner2"
+        />
+      </div>
+      <div class="carousel-item" data-bs-interval="2800">
+        <img
+          src="assets/userbanner5.jpg"
+          class="d-block w-100"
+          alt="Banner5"
+        />
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#usercarousel"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#usercarousel"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <!-- Intro -->
+    <div class="container-fluid pt-5 pb-3 welcome1" align="center">
+      <div class="row justify-content-evenly px-2 py-2">
+        <div class="col-md-12 col-sm-12 mx-1 my-2">
+          <h1 class="h1">Welcome  to <img
+            class="mx-3"
+            src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+            width="34px"
+            alt=""
+          />T O R I I</h1>
+          <p class="text-secondary">- your gateway to a getaway -</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- packages section -->
+    <div id ="packages" class="container-fluid">
+        
+<!-- cards -->
+<div class="container-fluid mt-3 pb-5 bg-dark rounded" style="background-color: white;" align="center">
+    <h5 class="display-6 text-center pt-5 text-secondary">Our <span class="text-danger">Packages</span></h5>
+    <div class="row justify-content-evenly px-2 py-4">
+        <div class="col-md-5 my-3">
+            <!-- 1card -->
+            <div class="card">
+                <img class="card-img-top" src="https://media.timeout.com/images/105725442/750/562/image.jpg" alt="Card image cap">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title text-dark">Japan Winter Tour Package (冬)</h5>
+                  <p class="text-secondary" style="text-align: justify;">Winter in Japan can range from a generous amount of snowfall, to dry and mild weather conditions depending on certain parts of Japan. Japan enjoys its winter season in a list of ways. There is nothing like bathing in an outdoor onsen (hot springs) on a cold day, attending cheerful snow festivals, or enjoying delicious foods unique to the season. Northern regions of Japan, such as Hokkaido, experience an ample amount of snow that is perfect for its beautiful winter festivals. Kyoto or Tokyo, however, are known for its mostly dry and sunny winters, so you can still enjoy sightseeing.</p>
+                  <ul class="text-secondary">
+                    <li>- Enjoy sightseeing in the city of Kyoto</li>
+                    <li>- Enjoy the picturesque views of Mt. Fuji</li>
+                    <li>- Enjoy visiting many attractions on a city tour of Tokyo</li>
+                    <li>- Marvel at the unmatched beauty of Nijo Castle in Kyoto</li>
+                    <li>- Head on a sightseeing tour to Hokkaido</li>
+                  </ul>
+                  <p class="text-secondary">Kyoto <i class="fa-solid fa-arrow-right"></i> Tokyo <i class="fa-solid fa-arrow-right"></i> Hokkaido </p>
+                  <p class="text-warning"><span class="text-dark">Ratings: </span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  <p class="text-secondary pb-3"><span class="text-dark">Facilities: </span>&emsp;🍱 meals &emsp; 🏨 accomodations &emsp;⛷️ skiing</p>
+                  <a href="#bookings" class="btn btn-outline-danger">Book now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-5 my-3">
+            <!-- 2card -->
+            <div class="card">
+                <img class="card-img-top" src="https://rimage.gnst.jp/livejapan.com/public/article/detail/a/00/01/a0001044/img/basic/a0001044_main.jpg" alt="Card image cap">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title text-dark">Japan Spring Tour Package (春)</h5>
+                  <p class="text-secondary" style="text-align: justify;">The spring season in Japan is most popularly associated with cherry blossoms (sakura). Sakura is the most renowned flower of the country, and its blooming period is arguably the most sought-after sites to see in Japan. This flourishing season also marks a sense of rebirth. Around this time, particularly in April, many employees start their new jobs and students begin a new school year. Spring is also the best time to relish in Japan's thriving gardens, where you can see tulips, azaeleas, and more. The weather is quite pleasant, but sweaters and cardigans are recommended. We also provide flower viewing (Ohanami) as a complementary service to our guests.</p>
+                  <ul class="text-secondary">
+                    <li>- Get close to Mt Fuji</li>
+                    <li>- Enjoy Tokyo tour</li>
+                    <li>- Spend time exploring Kyoto</li>
+                    <li>- Marvel at the beautiful exploration in Sendai</li>
+                    <li>- Enjoy tour of Hakone city</li>
+                  </ul>
+                  <p class="text-secondary">Tokyo <i class="fa-solid fa-arrow-right"></i> Kyoto <i class="fa-solid fa-arrow-right"></i> Sendai <i class="fa-solid fa-arrow-right"></i> Hakone </p>
+                  <p class="text-warning"><span class="text-dark">Ratings: </span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  <p class="text-secondary pb-3"><span class="text-dark">Facilities: </span>&emsp;🍱 meals &emsp; 🏨 accomodations &emsp;🌸 Ohanami (flower viewing)</p>
+                  <a href="#bookings" class="btn btn-outline-danger">Book now</a>
+                </div>
+              </div>
+        </div>
+        
+       
+    </div>
+
+    <!-- 2nd row -->
+    <div class="row justify-content-evenly px-2 py-4">
+        <div class="col-md-5 my-3">
+            <!-- 1card -->
+            <div class="card">
+                <img class="card-img-top" src="https://www.thejapaneseshop.co.uk/blog/wp-content/uploads/2018/10/japan-summer.jpeg" alt="Card image cap">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title text-dark">Japan Summer Tour Package (夏)</h5>
+                  <p class="text-secondary" style="text-align: justify;">Summers in Japan are known to be hot and humid during most days, but that shouldn't stop anyone from experiencing an amazing trip to Japan. Summertime is the season of fireworks, festivals, food, and more. Find yourself at one of many of Japan's lively celebrations and indulge in delicious street vendor food underneath an incredible fireworks show. Or if you wish to escape the sultry summer air, traveling to northern parts of Japan is a great way to do so. Enjoy comfortable, warm weather during a scenic hike through the lush, mountainous regions of Japan. Don't let the heat and humidity stop you from enjoying a trip to Japan you will never forget.</p>
+                  <ul class="text-secondary">
+                    <li>- Visit Mt Fuji</li>
+                    <li>- Enjoy Bullet Train ride</li>
+                    <li>- Soak in the hot springs of Hakone</li>
+                    <li>- Enjoy Osaka sights and sounds</li>
+                    <li>- Enjoy the meals and cuisine at Yokohama</li>
+                  </ul>
+                  <p class="text-secondary">Kyoto <i class="fa-solid fa-arrow-right"></i> Hakone <i class="fa-solid fa-arrow-right"></i> Osaka <i class="fa-solid fa-arrow-right"></i> Yokohama </p>
+                  <p class="text-warning"><span class="text-dark">Ratings: </span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half"></i></p>
+                  <p class="text-secondary pb-3"><span class="text-dark">Facilities: </span>&emsp;🍱 meals &emsp; 🏨 accomodations &emsp;🏊🏻‍♂️ pool</p>
+                  <a href="#bookings" class="btn btn-outline-danger">Book now</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-5 my-3">
+            <!-- 2card -->
+            <div class="card">
+                <img class="card-img-top" src="https://th-thumbnailer.cdn-si-edu.com/nuXzaUWjPMhFjhWfxQK5RiZSY1I=/1072x720/filters:no_upscale()/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer/31/7f/317f7f56-c30e-4a99-ba23-5f671018ddfb/japan-autumn-kyoto.jpg" alt="Card image cap">
+                <div class="card-body" style="text-align: left;">
+                  <h5 class="card-title text-dark">Japan Autumn Tour Package (秋)</h5>
+                  <p class="text-secondary" style="text-align: justify;">The autumn season in Japan is distinguished by its cool, pleasant temperatures and its striking scenery of reds and golds. Additionally, many autumn festivals take place in celebration of harvest time, autumn foliage (koyo), and historic occasions. Experience an unforgettable vacation to Japan in autumn, the most comfortable season of Japan. Enjoy the season of harvest, where many autumn festivals are held throughout Japan to give thanks or to honor their shrine's deity. Autumn in Japan is renowned for its attractive autumn foliage (koyo) found throughout the country.</p>
+                  <ul class="text-secondary">
+                    <li>- Pumpkin Filled Taiyaki</li>
+                    <li>- Onsen Baths in Picturesque Settings</li>
+                    <li>- Spend time exploring Kyoto</li>
+                    <li>- Marvel at the extravagant Niihama Taiko Festival</li>
+                    <li>- Gaze upon the Koyo (Fall Foliage)</li>
+                  </ul>
+                  <p class="text-secondary">Kyoto <i class="fa-solid fa-arrow-right"></i> Tokyo <i class="fa-solid fa-arrow-right"></i> Hakone <i class="fa-solid fa-arrow-right"></i> Owakudani </p>
+                  <p class="text-warning"><span class="text-dark">Ratings: </span><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></p>
+                  <p class="text-secondary pb-3"><span class="text-dark">Facilities: </span>&emsp;🍱 meals &emsp; 🏨 accomodations &emsp;♨️ onsens</p>
+                  <a href="#bookings" class="btn btn-outline-danger">Book now</a>
+                </div>
+              </div>
+        </div>
+        
+       
+    </div>
+</div>
+
+</div>
+
+    </div>
+
+    <!-- Feedback Section -->
+    <form action="user" method="post">
+    <div id ="feedback" class="container-fluid pb-5" style="background-color: #f1f1f1;">
+        <h5 class="display-6 text-center pt-5 pb-4 text-secondary">Share us your <span class="text-danger">Feedback </span></h5>
+        <div class="row justify-content-evenly px-2 py-2">
+            <div class="col-md-5 col-sm-12 my-2 bg-shad" align="center">
+                <img src="assets/feedback.jpg" width="65%" alt="">
+            </div>
+            <!-- form details -->
+            <div class="col-md-5 col-sm-12 my-2 rounded text-white bg-dark">
+                <form>
+                    <div class="form-group pt-3">
+                      <label for="fname">Enter your name</label>
+                      <input type="text" class="form-control mt-2" name="fname" placeholder="Aoi Mizuhara" required>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="mail">Enter your email</label>
+                        <input type="email" class="form-control mt-2" name="mail" placeholder="mizuhara_aoi@gmail.com" required>
+                      </div><br>
+                    <div class="form-group">
+                      <label for="satisfaction">Overall Satisfaction</label>
+                      <select class="form-control mt-2" name="satisfaction" required>
+                        <option value="">--select--</option>
+                        <option value="Excellent">Excellent</option>
+                        <option value="Very Good">Very Good</option>
+                        <option value="Could be Better">Could be Better</option>
+                        <option value="Need to Improve">Need to Improve</option>
+                        <option value="Worst Experience">Worst Experience</option>
+                      </select>
+                    </div><br>
+                    <div class="form-group">
+                        <label for="range">Improvement Range for Tourists</label>
+                        <input type="range" class="form-control mt-2" name="range" required>
+                    </div><br>
+                    <div class="form-group mb-3">
+                      <label for="usertextarea">Additional Comments</label>
+                      <textarea class="form-control mt-2" name="usertextarea" rows="4" required></textarea>
+                    </div>
+                    <input class="btn btn-outline-danger btn-lg mt-1 mb-4" type="submit" value="Submit">
+                    
+                  </form>
+            </div>
+        </div>
+       
+    </div>
+    </form>
+    
+
+    <div id ="bookings" class="container-fluid pb-4" style="background-color: black;">
+        <h5 class="display-6 text-center mt-2 pt-5 text-secondary">Make your <span class="text-danger">Bookings</span> here</h5>
+            <div class="row justify-content-evenly px-2" align="center">
+                <div class="col-md-6 col-sm-12 my-2 mx-2">
+                <h1 class="mt-5 py-3 rounded bg-danger text-white"><strong>BOOK</strong> now, <strong>BOARD</strong> later.</h1><br>
+                <p class="text-white display-6">It's an excellent time to plan your next trip with us!</p>
+                <a href="booking.html" class="btn btn-outline-warning px-4 py-2"><i class="fa-solid fa-plane-departure"></i> Book now</a>
+                </div>
+                <div class="col-md-4 col-sm-12 my-2 mx-2">
+                    <img class="mt-3" src="assets/cherry4.jpg" width="90%" alt="">
+                </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- Reach us -->
+    <div id="reachus" class="container-fluid bg-dark embed-responsive">
+        <div class="row justify-content-evenly px-2 pt-3 pb-4">
+          <h5 class="display-6 text-center mt-2 mb-1 text-secondary">Reach <span class="text-danger">Us</span></h5>
+          <div
+            class="col-md-3 col-sm-5 mt-2 text-white"
+            style="text-align: justify"
+          >
+            <p class="mt-3 mb-2"><strong>Address:</strong></p>
+            <p class="text-secondary">
+              67 Kitanokamihakubaichō, Kita Ward, Kyoto, <br />603-8325, Japan
+            </p>
+            <br />
+            <p class="text-secondary">
+              Japan is one of the oldest civilizations and has a beautiful and
+              diverse history. The stunning, diverse scenery with mountains and
+              breathtaking views, which are much appreciated by the Japanese,
+              offers so many different experiences that attract tourists from all
+              corners of the world.
+            </p>
+  
+            <p class="text-secondary">
+              Although Japan is accessible again, the country currently only
+              permits leisure tourists to come in organized groups rather than as
+              individuals.
+            </p>
+            <p class="text-secondary" >
+              <span style="color: red">T O R I I</span> - Meaning a gateway to
+              spirituality, is designed for those to experince the rich tradition
+              and culture of Japan.
+            </p>
+          </div>
+          <div class="col-md-2 col-sm-5 mt-2 mb-2 text-white">
+            <p class="mt-3 mb-2"><strong>Socials:</strong></p>
+            <ul>
+              <li>
+                <a id="asocial" href="https://www.facebook.com/" target="_blank"
+                  ><i class="fa-brands fa-facebook text-primary"></i> Facebook</a
+                >
+              </li>
+              <li>
+                <a id="asocial" href="https://www.instagram.com/" target="_blank"
+                  ><i class="fa-brands fa-instagram text-danger"></i> Instagram</a
+                >
+              </li>
+              <li>
+                <a id="asocial" href="https://twitter.com/" target="_blank"
+                  ><i class="fa-brands fa-twitter text-info"></i> Twitter</a
+                >
+              </li>
+              <li>
+                <a
+                  id="asocial"
+                  href="https://www.tumblr.com/login"
+                  target="_blank"
+                  ><i class="fa-brands fa-tumblr text-success"></i> Tumbler</a
+                >
+              </li>
+              <li>
+                <a
+                  id="asocial"
+                  href="https://in.pinterest.com/login/"
+                  target="_blank"
+                  ><i class="fa-brands fa-pinterest text-danger"></i> Pinterest</a
+                >
+              </li>
+              <li>
+                <a id="asocial" href="https://discord.com/" target="_blank"
+                  ><i class="fa-brands fa-discord text-primary"></i> Discord</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-6 col-sm-12 mt-2 mb-2 text-white">
+            <p class="mt-3 mb-2"><strong>Google Maps:</strong></p>
+            <p class="text-secondary">
+              You can find us at this location
+              <i class="fa-solid fa-location-dot text-danger"></i>
+            </p>
+            <iframe
+              class="map"
+              width="90%"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.4466134648858!2d135.73211344923405!3d35.027248980068556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010793235431d5%3A0x342ba00cbeae2a33!2zSmFwYW4sIOOAkjYwMy04MzI1IEt5b3RvLCBLaXRhIFdhcmQsIEtpdGFub2thbWloYWt1YmFpY2jFjSwgNjcg5bCP6YeO6ICz6by75ZK95ZaJ56eR5Yy76Zmi!5e0!3m2!1sen!2sin!4v1659448890181!5m2!1sen!2sin"
+              width="600"
+              height="400"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+  
+
+        <!-- Footer -->
+        <div id="footer" class="container-fluid">
+          <div class="row justify-content-evenly px-2 pt-3">
+            <div class="col-sm-12">
+              <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+            </div>
+          </div>
+        </div>
+     
+    
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

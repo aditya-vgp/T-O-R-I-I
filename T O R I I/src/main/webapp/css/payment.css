@@ -1,0 +1,28 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-image: url();
+    background-image: url(../assets/back1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+    z-index: -1;
+  }
+ 
+  .test {
+    font-weight: 500;
+    font-size: 60px;
+  }
+  .motto {
+    color: black;
+    letter-spacing: 6px;
+  }
+  #footer {
+    background-color: black;
+    color: rgb(163, 163, 163);
+    font-size: 11px;
+    letter-spacing: 3px;
+    z-index: 1;
+    position: relative;
+  }
+    

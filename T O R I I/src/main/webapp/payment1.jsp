@@ -1,0 +1,178 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ page import="java.sql.*" %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T O R I I</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/payment.css" />
+    <!-- Include Favicon -->
+    <link rel="icon" href="assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I</a
+          >
+        </div>
+      </nav>
+    </div>
+
+    <form action="payment1" method="post">
+      <div class="container-fluid p-0 m-0">
+        <!-- the actual content -->
+        <br /><br /><br /><br />
+        <div class="container-fluid details">
+          <h1 class="text-center text-dark display-5 test">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="70px"
+              alt="Icon"
+            />
+            T O R I I
+          </h1>
+          <p class="motto" align="center">your gateway to a getaway</p>
+          <div class="row justify-content-evenly px-3 py-3">
+            <!-- Payment -->
+          
+            <div class="col-md-7 col-sm-12 mx-1 my-3 py-4 bg-white rounded">
+              <p class="h3 mx-3 text-secondary">Your payment information</p><br>
+              <p class="text-secondary px-3">Your selection: 
+             <%
+try
+{
+       
+	 Class.forName("com.mysql.jdbc.Driver");  
+	 Connection conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/torii","root","");  
+	 //Statement stmt1=con.createStatement();
+	 String query2=String.format("SELECT package, packagetype FROM booking;");
+        PreparedStatement stmt = conn.prepareStatement(query2);
+        ResultSet rs = stmt.executeQuery();
+        if(rs.next()==false)
+        {
+            out.println("No Records in the table");
+        }
+        else
+        {%>
+        
+            <table class="px-2 mx-3 text-danger">
+               <%
+                do
+                {%>
+
+                    <tr><td><h5><%= rs.getString(1)%></h5></td></tr>
+                    <tr><td><h6><%= rs.getString(2)%></h6></td></tr>
+
+                    <%}while(rs.next());
+                }
+               
+        }
+        catch(Exception e)
+        {
+            System.out.println(e.getMessage());
+            e.getStackTrace();
+        }
+        %>
+
+    </table>
+   
+              </p>
+              <p class="text-secondary mx-3 my-0 mb-2">We accept</p>
+              <div class="container-fluid mb-3">
+                <img src="https://icm.aexp-static.com/Internet/internationalcardshop/en_in/images/cards/Gold_Card.png" width="60px" alt="">&emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/PayPal.svg/1200px-PayPal.svg.png" width="60px" alt="">&emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/MasterCard_logo.png/320px-MasterCard_logo.png" width="60px" alt="">&emsp;<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Visa.svg/1200px-Visa.svg.png" width="60px" alt="">
+              </div>
+              <p class="h5 mx-3 text-secondary mt-5">Card Details:</p><br>
+
+            
+              
+              <div class="form-floating mx-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  placeholder="Aoi Mizuhara"
+                  name="pname"
+                  
+                />
+                <label for="floatingInput"
+                  ><p class="text-secondary">Name on the card</p></label
+                >
+              </div>
+              <!-- <p class="text-secondary mx-3">Enter your password: </p> -->
+              <br>
+              <div class="form-floating mx-3">
+                <input
+                  type="text"
+                  class="form-control"
+                  id="floatingInput"
+                  maxlength="16"
+                  placeholder="xxxx-xxxx-xxxx-xxxx"
+                  name="pcard"
+                  
+                />
+                <label for="floatingInput"
+                  ><p class="text-secondary">Card Number</p></label
+                >
+              </div>
+              <div class="container-fluid mt-5" align="center">
+                <div class="row justify-content-evenly px-2">
+                    <div class="col-md-5 mx-2">
+                        <label class="text-secondary m-2">Month</label>
+                        <input class="rounded" type="month" name="pmonth" >
+                    </div>
+                    
+                    <div class="col-md-5 mx-2">
+                        <label class="text-secondary m-2">CVV</label>
+                        <input class="rounded" type="text" size="15" maxlength="3" placeholder="A76" name="pcvv" >
+                    </div>
+                </div>
+              </div>
+              <br />
+              <div class="mt-3" align="center">
+                <input class="btn btn-success" type="submit" value="Make Payment">
+              </div>
+            </div>
+            </form>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer" class="container-fluid fixed-bottom mt-5">
+          <div class="row justify-content-evenly px-2 pt-3">
+            <div class="col-sm-12">
+              <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+   
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

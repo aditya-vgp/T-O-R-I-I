@@ -1,0 +1,1250 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- To include Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- To include my favicon -->
+    <link rel="icon" href="assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- To link external CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    <title>T O R I I</title>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I - とりい</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To Align the Elements to the Right -->
+            <div class="m-auto"></div>
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white" href="index.html"
+                      >Home・ホーム</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Culture
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="culture.html"
+                      >Culture・カルチャー</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#partners"
+                      >Partners</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#geography"
+                      >Geographic Location</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#discover"
+                      >History & Culture</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#traditions"
+                      >Traditions</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#techadv"
+                      >Technological Advancements</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#reachus"
+                      >Reach Us / コンタクト・アス</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Entertainment
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="entertainment.html"
+                      >Entertainment・エンタテーンメント</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog・ブログ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login・ロギン</a>
+              </li>
+              <!-- To include navbar dropdown -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide carousel-fade mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2800">
+          <img
+            src="assets/cbanner2.jpg"
+            class="d-block w-100"
+            alt="Banner1"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/cbanner3.jpg"
+            class="d-block w-100"
+            alt="Banner4"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/cbanner1.jpg"
+            class="d-block w-100"
+            alt="Banner3"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/cbanner5.jpg"
+            class="d-block w-100"
+            alt="Banner2"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/cbanner4.jpg"
+            class="d-block w-100"
+            alt="Banner5"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Intro -->
+    <div class="container-fluid pt-5 pb-3 welcome2" align="center">
+      <div class="row justify-content-evenly px-2 py-2">
+        <div class="col-md-12 col-sm-12 mx-1 my-2">
+          <h1 class="h1">Welcome  to <img
+            class="mx-3"
+            src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+            width="34px"
+            alt=""
+          />T O R I I</h1>
+          <p class="text-secondary">- your gateway to a getaway -</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Partners -->
+    <div id="partners" class="container-fluid pb-5">
+      <div class="row justify-content-evenly">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-2 text-secondary">
+            Our Collaborating <span class="text-danger">Partners</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-3">
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/21.jpg" alt="" />
+          <h5 class="pt-3">GourmetPro</h5>
+          <p style="text-align: justify">
+            GourmetPro is a company based in Japan dedicated to help the food
+            and beverage industry grow internationally. Our experts combine more
+            than 20 years of immersion and achievements in the Digital
+            Innovation field and the Food & Beverage market in Japan.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/22.jpg" width="283px" alt="" />
+          <h5 class="pt-3">Japan Airlines</h5>
+          <p style="text-align: justify">
+            Japan Airlines customers travelling on Vistara will enjoy
+            complimentary meals and will be able to choose between three
+            different cabins, including India’s only Premium Economy class.
+            Japan Airlines Mileage Bank members can also earn miles when booking
+            on ‘JL’ coded Vistara flights.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/23.jpg" width="195px" alt="" />
+          <h5 class="pt-3">Okura Hotels & Resorts</h5>
+          <p style="text-align: justify">
+            With The Okura Tokyo as its flagship, Okura Hotels & Resorts (OHR)
+            is a hotel group with a presence in Japan and around the world. Its
+            facilities mix Japanese traditional beauty and Western
+            functionality, and OHR provides goods and services that strive to
+            offer meticulous Japanese hospitality.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Geographic Locations -->
+    <div
+      id="geography"
+      class="container-fluid pb-5"
+      style="background-color: #f1f1f1f1"
+    >
+      <div class="row justify-content-evenly">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-1 text-secondary">
+            Geographic <span class="text-danger">Location</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-2 pb-2 px-2">
+        <div class="col-md-5 col-sm-12 mt-5">
+          <iframe
+            class="embed-responsive feature-image"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19954416.57164573!2d135.8410224073911!3d41.57767022994693!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34674e0fd77f192f%3A0xf54275d47c665244!2sJapan!5e1!3m2!1sen!2sin!4v1659773440428!5m2!1sen!2sin"
+            width="90%"
+            height="550"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+        <div class="col-md-5 col-sm-12 mt-5">
+          <img
+            class="img-fluid"
+            src="assets/Map2.png"
+            width="90%"
+            alt="Support1"
+          />
+          <h5>Japan</h5>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Section -->
+    <div
+      id="discover"
+      class="container-fluid embed-responsive pb-5 bg-dark text-white"
+    >
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-5">
+        <div class="col-md-12 mt-5">
+          <h4 class="display-6 text-center mt-1 mb-1 text-secondary">
+            History & <span class="text-danger">Culture</span>
+          </h4>
+          <!-- <iframe
+            class="youtube-video"
+            src="https://www.youtube.com/embed/-pgCPJSiKoo"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe> -->
+          <div class="row justify-content-evenly pt-3 pb-3 px-3">
+            <div class="col-md-6 mt-2 mb-4 px-3">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid"
+                  width="100%"
+                  src="videos/autoplay mini as traditional secition in traditions.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+            <div class="col-md-6 mt-2 mb-4 px-3">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid"
+                  width="100%"
+                  src="videos/Make this as main page with controls attribute.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Inserting some Disco Information -->
+      <br />
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-2 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/dwt6ckxokuqpaeo9sopjgm2kjgnq_1617177290_castle-5476737_1920.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-2 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Osaka Castle</h6>
+          <p class="text-secondary">大坂城</p>
+          <p style="text-align: justify">
+            One of the best Places to visit in Osaka, the Osaka Castle was
+            established in 1586 and was built by a famous Japanese warrior named
+            Toyotomi Hideyoshi. One of the largest castles in Japan, the Osaka
+            Castle has been reconstructed throughout the years in history due to
+            destruction from enemies.
+            <br /><br />
+            Some of the major attractions of the Osaka Castle include its main
+            tower, which has five stories and is 42 meters tall. It also
+            consists of a museum where you can see exhibits about the castle and
+            the city’s history.
+            <br /><br />
+            Location: 1-1 Osakajo, Chuo Ward, Osaka, Osaka Prefecture 540-0002
+            <br /><br />
+            Timings: 09:00 a.m. to 05:00 p.m.
+            <br /><br />
+            Entry Fee: ¥ 600 per person
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Tokyo National Museum</h6>
+          <p class="text-secondary">東京国立博物館</p>
+          <p style="text-align: justify">
+            When visiting places in Tokyo, one can’t do without skipping a visit
+            to the Tokyo National Museum – the oldest and biggest of all of
+            Japan’s top-level museums throughout the country. The museum houses
+            over 110,000 pieces of historical artefacts, and over 100 national
+            treasures. Apart from the 4,000 things that are always on display at
+            the museum at any given time, you can also enjoy seasonal
+            exhibitions and shows focusing on various aspects of Japan’s rich
+            history.
+            <br /><br />
+            Lo cation: 13-9 Uenokoen, Taito City, Tokyo 110-8712, Japan
+            <br /><br />
+            Timings: Tuesday to Sunday (9:30 a.m. – 5:00 p.m.)
+            <br /><br />
+            Entry fees: 500-1000 yen
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/jlkstwh18usdjddohot9ti3p2z7r_1618899250_shutterstock_198478373.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/sfph4dv7mc8lgzow9zjbspez2lvb_1618899444_shutterstock_667925704.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Asakusa</h6>
+          <p class="text-secondary">浅草</p>
+          <p style="text-align: justify">
+            Asakusa is a small, traditional district in Taito in Japan, where
+            you can visit many temples, shrines, peaceful gardens and other
+            traditional structures that are representative of the culture of
+            Tokyo and Japan. If you are visiting at the right time of the year,
+            you can also attend the famous Sanja Matsuri festival.
+            <br /><br />
+            While there are several places selling authentic Japanese street
+            food, you can also dine in the new, upscale restaurants that have
+            come up on the waterfront in Asakusa.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Shitennō Ji Temple</h6>
+          <p class="text-secondary">四天王寺</p>
+          <p style="text-align: justify">
+            Looking for some historic places? The Shitennō-ji temple is your
+            answer. Having roots that date back to as early as AD 59, this
+            temple is one of the best and oldest in Osaka, in addition to being
+            the first Buddhist temple in Japan.
+            <br /><br />
+            Some of the attractions of this ancient temple include the
+            five-storey pagoda, along with numerous other intricately designed
+            and decorated buildings. You can also find the Golden Pavilion here,
+            with many fine paintings and statues, the Lecture Hall as well as a
+            corridor that links multiple gates of the temple.
+            <br /><br />
+            Location: 1-11-18 Shitennoji, Tennoji Ward, Osaka, Osaka Prefecture
+            543-0051
+            <br /><br />
+            Timings: 08:00 a.m. to 04:00 p.m.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/xbbuylxsdv442c8wklawh551iqnb_1617186185_1200px-Shitennoji03s3200_%281%29.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 5th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/up5ert3p8a41pad0j9n1rql8qmzs_1620711460_shutterstock_782756329.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Fukuoka Castle</h6>
+          <p class="text-secondary">福岡城</p>
+          <p style="text-align: justify">
+            One of the best places to visit in Fukuoka, the Fukuoka Castle is
+            also sometimes known as the Seki castle or Maizuru Castle. This 17th
+            century hilltop castle is one of the only remaining examples of the
+            lavish housings of the ruling elite of Japan from those eras.
+            <br /><br />
+            While the castle today retains only a small portion of its original
+            structure, it is said to have covered an area of almost 47,000
+            square metres once. From the castle, you can enjoy impressive views
+            of the Naka River. You can also explore many original castle gates,
+            towers and turrets within the castle grounds today.
+            <br /><br />
+            Location: 1 Jonai, Chuo Ward, Fukuoka
+            <br /><br />
+            Entry Fee: ¥300 onwards
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 6th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Sumiyoshi Jinja Shrine</h6>
+          <p class="text-secondary">住吉大社</p>
+          <p style="text-align: justify">
+            Amongst the top Fukuoka beautiful places, the Sumiyoshi-jinja shrine
+            is also one of the oldest shrines in Kyushu. Dedicated to the gods
+            that protect the seafarers, this shrine is one which sailors,
+            travellers and fishermen visit before heading to the sea. Surrounded
+            by many Japanese cedar and camphor trees, the shrine also offers
+            views of the Naka River.
+            <br /><br />
+            One of the main attractions of the shrine is its Main Hall, which
+            has been rebuilt in its original style of 1623. You can also find
+            numerous important national treasures, an ancient sword as well as a
+            copper axe, along with old documents and manuscripts that date back
+            to the Middle Ages.
+            <br /><br />
+            Location: 3 Chome-1-51 Sumiyoshi, Hakata Ward, Fukuoka
+            <br /><br />
+            Timings: 09:00 a.m. to 05:00 p.m.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/07juunq6k46ea9cymt9icrns29yg_1618552571_shutterstock_1624536862.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 7th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://res.cloudinary.com/thrillophilia/image/upload/c_fill,f_auto,fl_progressive.strip_profile,g_auto,h_600,q_auto,w_auto/v1/filestore/j4u6tykvsyn9z77d0x8x1a1ns0n4_1618552652_shutterstock_359200415.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Kushida Jinja Shrine</h6>
+          <p class="text-secondary">櫛田神社</p>
+          <p style="text-align: justify">
+            Another one of the Fukuoka beautiful places and amongst the
+            best-known Shinto shrines in Japan, the Kushida-jinja dates back to
+            AD 757. Along with intricate carvings of the Chinese zodiac and a
+            1000-year-old gingko tree, the shrine also has many other unique
+            features.
+            <br /><br />
+            The shrine is also the place where the famous festival of Hakata
+            Gion Yamakasa is hosted every July. People, especially travellers,
+            fishermen and sailors often visit the shrine to pray for good
+            health, safety and prosperity on a regular basis. The shrine also
+            houses the tombs of the lords of the Kuroda clan.
+            <br /><br />
+            Location: 1-41 Kamikawa Tamachi, Hakata Ward, Fukuoka, 812-0026
+            <br /><br />
+            Timings: 04:00 a.m. to 10:00 p.m.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 8th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">Kyoto Imperial Palace</h6>
+          <p class="text-secondary">京都御所</p>
+          <p style="text-align: justify">
+            Kyoto Imperial Palace was the former ruling palace of the Emperor.
+            After the Meiji Restoration in the year 1869, the Emperors have been
+            residing at the Tokyo Imperial palace while the Kyoto palace is
+            preserved.
+            <br /><br />
+            It is definitely one of the must visit places to see in Japan as it
+            offers loads of insights about the bygone era and offers picture
+            perfect views of the Nijubashi Bridge.
+            <br /><br />
+            Location: 3 Kyoto Gyoen, Kamigyo Ward, Kyoto, 602-0881, Japan
+            <br /><br />
+            Timing: September & March: 9:00 - 15:50 (Last admission); 16:30
+            (Closing time) October - February: 9:00 - 15:20 (Last admission);
+            16:00 (Closing time) April - August : 9:00 - 16:20 (Last admission);
+            17:00 (Closing time)
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://images.thrillophilia.com/image/upload/s--iomP2l-s--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/370/963/original/1619589785_shutterstock_411668134.jpg.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 9th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://images.thrillophilia.com/image/upload/s--KNnTugI5--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/370/965/original/1618899701_shutterstock_510619519.jpg.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">
+            Fushimi-Inari Taisha Shrine
+          </h6>
+          <p class="text-secondary">伏見稲荷大社</p>
+          <p style="text-align: justify">
+            Fushimi Inari Taisha Shrine is considered to be the head shrine of
+            the Kami Inari. The shrine is famous for its vermilion torii gates
+            which formed a network of trails behind the main building.
+            <br /><br />
+            As per legends, foxes are believed to be the messenger of Inari and
+            for this reason, you will also come across a number of fox statues
+            across the shrine grounds.
+            <br /><br />
+            Location: 68 Fukakusa Yabunouchicho, Fushimi Ward, Kyoto, 612-0882,
+            Japan
+            <br /><br />
+            Entry Fee: 600 yen for adults and 300 yen for children
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+      <!-- 10th -->
+      <div class="row justify-content-evenly py-2 px-1">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 mt-2 text-success">
+            The Island Shrine Of Itsukushima
+          </h6>
+          <p class="text-secondary">厳島</p>
+          <p style="text-align: justify">
+            Itsukushima which is also known as Miyajima is a small island in
+            Hiroshima Bay that is very much popular for its forests and ancient
+            temples. The shrine was initially constructed in the 12th century.
+            <br /><br />
+            Heading over to one of the beautiful places in Japan, you will also
+            get a chance to visit the Museum of History and Folklore, which is
+            home to some of the cultural artifacts that date back to almost the
+            19th century.
+            <br /><br />
+            Location: 1-1 Miyajimacho, Hatsukaichi 739-0588 Hiroshima Prefecture
+            <br /><br />
+            Timing: 6:30 AM - 5:00 PM
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://images.thrillophilia.com/image/upload/s--qf1na1S0--/c_fill,g_center,h_450,q_auto,w_753/dpr_1.0,f_auto,fl_strip_profile/v1/images/photos/000/370/989/original/1617435748_1200px-Itsukushima_Shrine_Torii_Gate__2813890465459_29.jpg.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Traditions -->
+    <div
+      id="traditions"
+      class="container-fluid"
+      style="background-color: rgb(24, 23, 23); color: white"
+    >
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-sm-12">
+          <h4 class="display-6 text-center mt-1 mb-5 text-secondary">
+            Our <span class="text-danger">Traditions</span>
+          </h4>
+          <p class="text-secondary px-3 pb-5" style="text-align: justify">
+            Japanese culture is ancient and is filled with rites and traditions
+            to honor the family. Because Japan is an island country, it was able
+            to moderate the influence of other cultures for centuries. This
+            allowed a distinct culture and heritage to develop for the beautiful
+            Land of the Rising Sun. Two major religions influence Japanese
+            traditions and culture: Shintoism and Buddhism. Shintoism has been
+            practiced in Japan for over 2,000 years. Simply said, Shintoism is
+            the belief in kami (gods). Because Shintoism has a lot to do with
+            rituals, some Japanese may not feel it is a religion at all, but
+            rather a way to celebrate many of Japan’s social traditions. For
+            this reason, Buddhism can be practiced right alongside Shinto
+            customs.
+          </p>
+        </div>
+
+        <!-- 1st -->
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://familysearch.brightspotcdn.com/dims4/default/cc778b6/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F57%2F90%2Ff5420bd6a1ff1ebe610b0f9aaa64%2Fjapanese-girl-visits-shinto-shrine.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">
+            Hatsu Miyamairi: a Cultural Rite of Passage
+          </h6><br>
+          <p style="text-align: justify">
+            Hatsu Miyamairi, or Omiyamairi, meaning “shrine visit,” is a
+            precious family tradition for the close loved ones of a newborn
+            baby. Parents or grandparents bring the baby to a Shinto shrine for
+            this special rite of passage. Traditionally done 31 days after the
+            birth of a boy and 33 days after the birth of a girl, this Japanese
+            Shinto tradition shows gratitude for the birth of the child.
+            <br /><br />
+            Babies are dressed in a white kimono or special white dress and are
+            most often carried by their grandmother. The shrine priest says a
+            prayer for the health and happiness of the newborn.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">Seijin No Hi</h6><br>
+          <p style="text-align: justify">
+            Seijin no Hi, or Coming of Age Day, is another rite of passage in
+            Japanese culture. It welcomes into adulthood those who have turned
+            age 20 and is held each year on the second Monday in January.
+            <br /><br />
+            Seijin no Hi has been practiced in Japan since AD 714, when a young
+            prince dressed in new robes and changed his hairstyle to reflect his
+            passage into adulthood.
+            <br /><br />
+            On this celebration day, new adults gather and enjoy encouraging
+            speeches from government officials.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://familysearch.brightspotcdn.com/dims4/default/c4c3ef5/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F2e%2Fd0%2Fcd0d875cc05514baeb6a500fb87c%2Fcoming-of-age-day-group-photo.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://familysearch.brightspotcdn.com/dims4/default/b483e58/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F09%2F6b%2F16e40f88a5728b1cee9fbf6cbd47%2Flanterns-and-stage-at-the-obon-festival.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">
+            The Obon Festival: a Festival of Japanese Culture
+          </h6><br>
+          <p style="text-align: justify">
+            The Obon festival is a way the Japanese honor their ancestors. This
+            three-day summer festival has been celebrated for more than 500
+            years and takes place in July or August.
+            <br /><br />
+            This Japanese Buddhist tradition encourages people to return to
+            their ancestral family home places and clean and visit the graves of
+            their ancestors. The spirits of the ancestors are said to revisit
+            the family altars. Gifts of food, alcohol, and flowers are often
+            left on the gravestone and altar as a respectful gesture to those
+            who have passed away.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12">
+          <h6 class="display-6 mt-2 text-success">Japanese Life in the Home</h6><br>
+          <p style="text-align: justify">
+            Traditional Japanese homes have very distinctive elements that make
+            them unique, such as rush-and-cloth flooring called tatami mats,
+            sliding doors called fusuma, and a kamidana or butsudan, which are
+            house altars or shrines.
+            <br /><br />
+            Home altars and shrines are for paying respect to ancestors and for
+            worship. A Buddist often has a butsudan altar, which resembles a
+            cabinet. Within the cabinet is usually a Buddha figurine,
+            candlesticks, incense sticks, bells, and a place to leave offerings
+            in the altar.
+            <br /><br />
+            A kamidana is a miniature Shinto shrine in the home. Amulets or
+            talismans are placed inside the shrine. As in traditional shrines
+            found in a city or town, a rope hangs across the top, with white
+            pieces of paper hanging from it. This rope and paper show the kami,
+            or god, the purity of shrine. You may also see vases, candlesticks,
+            and white dishes for offerings of water, sake, and food.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://familysearch.brightspotcdn.com/dims4/default/03a0916/2147483647/strip/true/crop/800x500+0+0/resize/800x500!/format/webp/quality/90/?url=https%3A%2F%2Ffamilysearch-brightspot.s3.amazonaws.com%2F6e%2F4f%2F5e81a42257a21fde4c72f4ac8ca8%2Ftraditional-japanese-living-room.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Technological Advancements -->
+    <div
+      id="techadv"
+      class="container-fluid"
+      style="background-color: #f1f1f1f1"
+    >
+      <div class="row justify-content-evenly px-2 py-5">
+        <div class="col-sm-12">
+          <h4 class="display-6 text-center mt-1 mb-3 text-secondary">
+            Technological <span class="text-danger">Advancements</span>
+          </h4>
+          <p class="text-secondary px-3 pb-2 pt-3" style="text-align: justify">
+            Forty years ago, Suwa Seikosha employee Yukio Yokozawa received a
+            patent for inventing the first-ever laptop-sized notebook PC.
+            Featuring an LCD screen, full-size keyboard, built-in rechargeable
+            batteries and a printer, the Epson HX-20 was hailed by BusinessWeek
+            magazine as the “Fourth revolution in personal computing.” To
+            commemorate this significant achievement, T O R I I looks back at
+            some of our other favorite Japanese creations in the postwar years.
+          </p>
+        </div>
+
+        <!-- Big Daddy -->
+        <div class="row justify-content-evenly px-2 py-3" align="center">
+            <div class="col-md-11 col-sm-11 mt-1">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid"
+                  width="100%"
+                  src="videos/teamLab Planets TOKYO ⧸ チームラボ プラネッツ TOKYO DMM.com.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+              <p class="text-secondary mt-3">teamLab Planets TOKYO / チームラボ プラネッツ TOKYO。</p>
+            </div>
+          </div>
+
+        <!-- 1st -->
+        <div class="row justify-content-evenly py-5 px-2">
+          <div class="col-md-5 col-sm-12 mx-2">
+            <img
+              class="img-fluid stat-image"
+              src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Rice-cooker.jpg"
+              alt=""
+            />
+          </div>
+          <div class="col-md-5 col-sm-12 mt-3">
+            <h6 class="display-6 mt-2 text-success">1. Electric Rice Cooker</h6><br>
+            <p style="text-align: justify">
+              A simple yet extremely useful kitchen appliance consisting of a
+              heat source, cooking bowl and thermostat — the first electric rice
+              cookers (suihanki) — were produced by Mitsubishi Electric
+              Corporation in 1945. Unfortunately, they weren’t very
+              user-friendly back then as there was no automatic turn-off
+              facility, which meant the rice required constant supervision. In
+              1956, Yoshitada Minami invented a practical rice cooker with a
+              thermostat that switched off automatically and thus prevented the
+              rice from burning.
+              <br /><br />
+              Toshiba started selling the cookers and within four years, they
+              could be found in around half of Japanese households. Today, it is
+              a Japanese kitchen staple.
+            </p>
+          </div>
+        </div>
+        <hr class="my-4 text-secondary" />
+      </div>
+
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">2. Shinkansen</h6><br>
+          <p style="text-align: justify">
+            At 6 am on October 1, 1964 two bullet trains (dangan ressha) left
+            simultaneously from Tokyo and Shin-Osaka stations, marking the
+            inauguration of the 0 Series Shinkansen. Launched nine days before
+            the Tokyo Olympics opening ceremony, these trains reached speeds of
+            up to 130 miles per hour (210 kph), making it possible to get from
+            the capital to Osaka in around four hours, almost three hours
+            shorter than the conventional limited express.
+            <br /><br />
+            Today that journey can be done in two and a half hours on the Nozomi
+            bullet train with a top speed of close to 200 miles per hour. (320
+            kph).
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Shinkansen.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Quartz.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">3. Quartz Watch</h6><br>
+          <p style="text-align: justify">
+            The story of quartz crystal as a timekeeping instrument began in
+            1880 when Pierre Curie (Marie’s future husband) and his younger
+            brother Jacques discovered its piezoelectric properties. The first
+            quartz clock was built by Bell Laboratories 47 years later, proving
+            much more accurate than its mechanical counterpart. The next big
+            challenge was squeezing all the components of the clock into a
+            wristwatch. No easy feat.
+            <br /><br />
+            Seikosha became the first company to achieve that with the release
+            of the Seiko Quartz Astron on Christmas Day, 1969, a date that is
+            etched in the annals of horological history.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">4. Tactile Paving</h6><br>
+          <p style="text-align: justify">
+            Wanting to help a friend who was slowly going blind, Seiichi Miyake
+            used his money to create tactile bricks (also known as tenji blocks)
+            so visually impaired pedestrians could be alerted to upcoming
+            dangers such as pavement curbs or platform edges at train stations.
+            Developed in 1965, the yellow bumpy surfaces, featuring dots and
+            bars, were installed along a highway near a school for the blind in
+            Okayama two years later.
+            <br /><br />
+            The following decade, all Japan National Rail platforms were
+            mandated to include the invention. Tactile paving eventually became
+            commonplace in western countries in the 1990s.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Tactile-paving.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 5th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Karaoke.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">5. Karaoke</h6><br>
+          <p style="text-align: justify">
+            Known as the inventor of karaoke, Daisuke Inoue was described in
+            Time magazine as “one of the most influential Asians of the 20th
+            Century.” In 1971, his band provided back-up music at clubs for
+            businessmen wanting to take to the stage. Asked by a client to
+            accompany him on a business trip in 1971, he was unable to attend.
+            Instead, however, he supplied a recorded tape.
+            <br /><br />
+            Realizing its potential, the drummer made a karaoke machine out of a
+            car stereo, coin box and amplifier that he then rented to bars in
+            Kobe. As he didn’t patent the invention, Inoue missed out on
+            millions. You can even enjoy karaoke while also riding one of
+            Japan’s state-of-the-art trains.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 6th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">6. Cassette Player</h6><br>
+          <p style="text-align: justify">
+            On July 1, 1979, 16 years after Dutch company Phillips developed
+            cassette technology, Sony released the TPS-L2 Walkman, a personal
+            cassette player that revolutionized the way people listened to
+            music.
+            <br /><br />
+            The organization’s co-founder Masaru Ibuka, tired of lugging around
+            the bulky TC-D5 cassette recorder on business trips, asked executive
+            deputy president Norio Ohga to design a playback-only stereo version
+            optimized for headphone use (the original device had two earphone
+            jacks so two people could listen at once).
+            <br /><br />
+            Predicted to sell around 5,000 units monthly, it sold upwards of
+            500,000 in the first two months.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/casette-player.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 7th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Washlet.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">7. Washlet</h6><br>
+          <p style="text-align: justify">
+            When tourists visit Japan, one of the first things they usually
+            mention is how amazing the toilets are here. Toto is the company
+            responsible for these innovative lavatories that feature automatic
+            lids, heated seats and music to hide any embarrassing noises. It was
+            the creation of the washlet in 1980 that ushered in this new era of
+            high-tech toilets.
+            <br /><br />
+            The idea was to integrate electric seats with bidet functions,
+            featuring a nozzle that extends and retracts at exactly 43 degrees,
+            known as the “golden angle.” The temperature of the water is always
+            warm, allowing for optimum comfort.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 8th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">8. Blue LED</h6><br>
+          <p style="text-align: justify">
+            In 2014, Shuji Nakamura, an American citizen born and raised in
+            Japan, along with two Japanese scientists, Isamu Akasaki and Hiroshi
+            Amano, won the Nobel Prize in physics for the invention of blue
+            light-emitting diodes (LEDs). Their accomplishment in 1992 solved a
+            long-standing issue that proved extremely challenging for
+            scientists.
+            <br /><br />
+            Though green and red LEDs had been around for many years, without
+            the blue diodes, it wouldn’t have been possible to produce the white
+            light we see in LED-based computer and TV screens today. Lighting is
+            now more energy-efficient and cost-effective.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/Blue-LED.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 9th -->
+      <div class="row justify-content-evenly py-5 px-2">
+        <div class="col-md-5 col-sm-12 mx-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.tokyoweekender.com/wp-content/uploads/2020/07/shutterstock_1852524001.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mt-3">
+          <h6 class="display-6 mt-2 text-success">9. Emoji</h6><br>
+          <p style="text-align: justify">
+            An anglicized version of two Japanese words meaning “picture
+            character,” emojis first appeared in Japan at the end of the 20th
+            Century. The SkyWalker DP-211 SW, released by Softbank (then known
+            as J-Phone) on November 1, 1997, was believed to be the first mobile
+            phone to feature the pictograms. There were 90 in total, all in
+            black in white, including the iconic poop symbol.
+            <br /><br />
+            Two years later, Shigetaka Kurita designed a set of 176 cartoon-like
+            images in color using a 12 by 12 pixels canvas for Docomo. There are
+            now more than 3,000 emojis in the Unicode Standard. The “face with
+            tears of joy” is said to be the most frequently used emoji.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Reach us -->
+    <div id="reachus" class="container-fluid bg-dark embed-responsive">
+      <div class="row justify-content-evenly px-2 pt-3 pb-4">
+        <h5 class="display-6 text-center mt-2 mb-1 text-secondary">Reach <span class="text-danger">Us</span></h5>
+        <div
+          class="col-md-3 col-sm-5 mt-2 text-white"
+          style="text-align: justify"
+        >
+          <p class="mt-3 mb-2"><strong>Address:</strong></p>
+          <p class="text-secondary">
+            67 Kitanokamihakubaichō, Kita Ward, Kyoto, <br />603-8325, Japan
+          </p>
+          <br />
+          <p class="text-secondary">
+            Japan is one of the oldest civilizations and has a beautiful and
+            diverse history. The stunning, diverse scenery with mountains and
+            breathtaking views, which are much appreciated by the Japanese,
+            offers so many different experiences that attract tourists from all
+            corners of the world.
+          </p>
+
+          <p class="text-secondary">
+            Although Japan is accessible again, the country currently only
+            permits leisure tourists to come in organized groups rather than as
+            individuals.
+          </p>
+          <p class="text-secondary">
+            <span style="color: red">T O R I I</span> - Meaning a gateway to
+            spirituality, is designed for those to experince the rich tradition
+            and culture of Japan.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-5 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Socials:</strong></p>
+          <ul>
+            <li>
+              <a id="asocial" href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook text-primary"></i> Facebook</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram text-danger"></i> Instagram</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://twitter.com/" target="_blank"
+                ><i class="fa-brands fa-twitter text-info"></i> Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://www.tumblr.com/login"
+                target="_blank"
+                ><i class="fa-brands fa-tumblr text-success"></i> Tumbler</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://in.pinterest.com/login/"
+                target="_blank"
+                ><i class="fa-brands fa-pinterest text-danger"></i> Pinterest</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://discord.com/" target="_blank"
+                ><i class="fa-brands fa-discord text-primary"></i> Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Google Maps:</strong></p>
+          <p class="text-secondary">
+            You can find us at this location
+            <i class="fa-solid fa-location-dot text-danger"></i>
+          </p>
+          <iframe
+            class="map"
+            width="90%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.4466134648858!2d135.73211344923405!3d35.027248980068556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010793235431d5%3A0x342ba00cbeae2a33!2zSmFwYW4sIOOAkjYwMy04MzI1IEt5b3RvLCBLaXRhIFdhcmQsIEtpdGFub2thbWloYWt1YmFpY2jFjSwgNjcg5bCP6YeO6ICz6by75ZK95ZaJ56eR5Yy76Zmi!5e0!3m2!1sen!2sin!4v1659448890181!5m2!1sen!2sin"
+            width="600"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer" class="container-fluid">
+      <div class="row justify-content-evenly px-2 pt-3">
+        <div class="col-sm-12">
+          <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap CDN for JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery Script tag for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Popper for navbar dropdown -->
+  </body>
+</html>

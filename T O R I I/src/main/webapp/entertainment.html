@@ -1,0 +1,1195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- To include Bootstrap -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+    />
+    <!-- To include my favicon -->
+    <link rel="icon" href="assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- To link external CSS -->
+    <link rel="stylesheet" href="css/index.css" />
+    
+    <title>T O R I I</title>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I - とりい</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To Align the Elements to the Right -->
+            <div class="m-auto"></div>
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white" href="index.html"
+                      >Home・ホーム</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="culture.html">Culture</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Culture
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="culture.html"
+                      >Culture・カルチャー</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link" href="#">Entertainment</a>
+              </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Entertainment
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="entertainment.html"
+                      >Entertainment・エンタテーンメント</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#partners"
+                      >Partners</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#genre">Genre</a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#discover"
+                      >Discover Genre</a
+                    >
+                  </li>
+                  <li><hr class="dropdown-divider bg-secondary" /></li>
+                  <li>
+                    <a class="dropdown-item text-white" href="#reachus"
+                      >Reach Us / コンタクト・アス</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog・ブログ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login・ロギン</a>
+              </li>
+              <!-- To include navbar dropdown -->
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Dropdown
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Carousel -->
+    <div
+      id="carouselExampleControls"
+      class="carousel slide carousel-fade mt-5"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="2800">
+          <img
+            src="assets/enterbanner5.jpg"
+            class="d-block w-100"
+            alt="Banner1"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/enterbanner0.jpg"
+            class="d-block w-100"
+            alt="Banner4"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/enterbanner2.jpg"
+            class="d-block w-100"
+            alt="Banner3"
+          />
+        </div>
+        <div class="carousel-item" data-bs-interval="2800">
+          <img
+            src="assets/enterbanner3.jpg"
+            class="d-block w-100"
+            alt="Banner2"
+          />
+        </div>
+        </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleControls"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- Intro -->
+    <div class="container-fluid pt-5 pb-3 welcome3" align="center">
+      <div class="row justify-content-evenly px-2 py-2">
+        <div class="col-md-12 col-sm-12 mx-1 my-2">
+          <h1 class="h1">Welcome  to <img
+            class="mx-3"
+            src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+            width="34px"
+            alt=""
+          />T O R I I</h1>
+          <p class="text-secondary">- your gateway to a getaway -</p>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- Partners -->
+    <div id="partners" class="container-fluid pb-5">
+      <div class="row justify-content-evenly">
+        <div class="col-sm-12">
+          <h3 class="display-6 text-center mt-5 mb-2 text-secondary">
+            Our Collaborating <span class="text-danger">Partners</span>
+          </h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-3">
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/21.jpg" alt="" />
+          <h5 class="pt-3">GourmetPro</h5>
+          <p style="text-align: justify">
+            GourmetPro is a company based in Japan dedicated to help the food
+            and beverage industry grow internationally. Our experts combine more
+            than 20 years of immersion and achievements in the Digital
+            Innovation field and the Food & Beverage market in Japan.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/22.jpg" width="283px" alt="" />
+          <h5 class="pt-3">Japan Airlines</h5>
+          <p style="text-align: justify">
+            Japan Airlines customers travelling on Vistara will enjoy
+            complimentary meals and will be able to choose between three
+            different cabins, including India’s only Premium Economy class.
+            Japan Airlines Mileage Bank members can also earn miles when booking
+            on ‘JL’ coded Vistara flights.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img class="img-fluid" src="assets/23.jpg" width="195px" alt="" />
+          <h5 class="pt-3">Okura Hotels & Resorts</h5>
+          <p style="text-align: justify">
+            With The Okura Tokyo as its flagship, Okura Hotels & Resorts (OHR)
+            is a hotel group with a presence in Japan and around the world. Its
+            facilities mix Japanese traditional beauty and Western
+            functionality, and OHR provides goods and services that strive to
+            offer meticulous Japanese hospitality.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Genre -->
+    <div
+      id="genre"
+      class="container-fluid pb-5"
+      style="background-color: #f1f1f1f1"
+    >
+      <div class="row justify-content-evenly">
+        <div class="col-12">
+          <h3 class="display-6 text-center mt-5 mb-1 text-secondary">Genre</h3>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-2 pb-2 px-2">
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid mb-4"
+            src="assets/music.jpg"
+            width="80%"
+            alt="Support1"
+          />
+          <h5>Music</h5>
+          <p style="text-align: justify">
+            In Japan, music includes a wide array of distinct genres, both
+            traditional and modern. The word for "music" in Japanese is 音楽
+            (ongaku), combining the kanji 音 on (sound) with the kanji 楽 gaku
+            (music, comfort). Japan is the world's largest market for music on
+            physical media[citation needed] and the second-largest overall music
+            market, with a retail value of US$2.7 billion in 2017.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid mb-4"
+            src="assets/anime.jpg"
+            width="75%"
+            alt="Support3"
+          />
+          <h5>Anime</h5>
+          <p style="text-align: justify">
+            Anime (Japanese: アニメ) is a Japanese term for animation. However,
+            in Japan and in Japanese, anime (a term derived from a shortening of
+            the English word animation) describes all animated works, regardless
+            of style or origin. Animation produced outside of Japan with similar
+            style to Japanese animation is commonly referred to as
+            anime-influenced animation.
+          </p>
+        </div>
+        <div class="col-md-3 mt-5">
+          <img
+            class="img-fluid mb-4"
+            src="assets/movie.jpg"
+            width="80%"
+            alt="Support4"
+          />
+          <h5>Cinema</h5>
+          <p style="text-align: justify">
+            The cinema of Japan (日本映画, Nihon eiga) has a history that spans
+            more than 100 years. Japan has one of the oldest and largest film
+            industries in the world; as of 2021, it was the fourth largest by
+            number of feature films produced. In 2011 Japan produced 411 feature
+            films that earned 54.9% of a box office total of US$2.338 billion.
+            Films have been produced in Japan since 1897, when the first foreign
+            cameramen arrived.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Video Section -->
+    <div
+      id="discover"
+      class="container-fluid embed-responsive pb-5 bg-dark text-white"
+    >
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-5">
+        <div class="col-md-12 mt-5">
+          <h4 class="display-6 text-center mt-1 mb-5 text-secondary">
+            Discover <span class="text-danger">Genre</span>
+          </h4>
+          <h4>Music Industry</h4>
+          <p class="text-secondary px-3 pb-2 pt-3" style="text-align: justify">
+            Japan is the largest physical music market in the world, with 2
+            billion dollars, and the second largest overall music market include
+            online market, with 2.6 billion dollars as of 2014. Japan has
+            variety of music genres include J-pop, J-rock, J-hip hop, Japanese
+            reggae, Japanese Jazz, Japanoise, Anime Music, Game music,
+            Traditional Minyo, Traditional Wadaiko, Traditional Kagura,
+            Traditional Dengaku, Traditional Gagaku and so on. As Japan is the
+            inventor of Karaoke, you can find Karaoke everywhere in Japan, and
+            you can enjoy and sing almost all the Japanese music in Karaoke.
+            ORICON announces the most influential music ranking in Japan as with
+            the billboard in U.S.A.
+          </p>
+          <div class="row justify-content-evenly px-2 py-3">
+            <div class="col-md-12 col-sm-12 mt-1">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid"
+                  width="100%"
+                  src="videos/Your NameKimi no Na wa君の名は。 Orchestra Concert Sparkleスパークル.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+              <p class="text-secondary mt-3">Your Name / Kimi no Na wa / 君の名は。 Orchestra Concert: Sparkle / スパークル。</p>
+            </div>
+          </div>
+          <!-- Doublets -->
+          <div class="row justify-content-evenly text-center pb-3 px-3">
+            <div class="col-md-6 mt-2 mb-4 px-3">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid mt-2"
+                  width="100%"
+                  src="videos/KANA-BOON - Silhouette.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+              <p class="text-secondary mt-4">KANA-BOON - Silhouette / シルエット。</p>
+            </div>
+            <div class="col-md-6 mt-2 mb-4 px-3">
+              <div class="embed-responsive-item embed-responsive-16by9">
+                <video
+                  class="my-vid mt-2"
+                  width="100%"
+                  src="videos/YOASOBI - 群青   THE FIRST TAKE_Trim.mp4"
+                  controls
+                  autoplay
+                  muted
+                  loop
+                ></video>
+              </div>
+              <p class="text-secondary mt-4">YOASOBI Gunjou - THE FIRST TAKE / 群青。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Inserting some Disco Information -->
+      <br />
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-1 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://i0.wp.com/annyeongoppa.com/wp-content/uploads/2020/04/SCANDAL-2019-696x465-1.jpg?w=550&ssl=1"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-1 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Main Stream of Modern Japanese Music (J-Pop and J-Rock)
+          </h6><br>
+          <p style="text-align: justify">
+            J-pop and J-rock are a musical genre that entered the musical
+            mainstream of Japan in the 1990s. Modern J-pop and J-rock has its
+            roots in traditional Japanese music, but significantly in 1960s pop
+            and rock music, such as The Beatles and The Beach Boys, which led to
+            Japanese rock bands such as Happy End fusing rock with Japanese
+            music in the early 1970s. J-pop and J-rock were further defined by
+            new wave groups in the late 1970s, particularly electronic synthpop
+            band Yellow Magic Orchestra and pop rock band Southern All Stars.
+            The terms were coined by the Japanese media to distinguish Japanese
+            music from foreign music, and now refer to most Japanese popular
+            music. The musical genre has been immensely influential in many
+            other music styles, and hence those of neighboring regions, where
+            the style has been copied by neighboring Asian regions, who have
+            also borrowed the name to form their own musical identities.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Strong Connection with Jamaican Reggae (Japanese Reggae)
+          </h6><br>
+          <p style="text-align: justify">
+            The first reggae band to perform in Japan was The Pioneers who
+            toured in 1975. However it was not until 1979, when Jamaican singer
+            Bob Marley visited Japan on holiday that reggae would gain momentum.
+            Marley wanted to attend a concert by the Flower Travellin Band and
+            when looking for information, he met famed Japanese percussionist
+            "Pecker" who informed him that the group had already disbanded. The
+            two became good friends, and Pecker suggested to Marley the
+            collaboration between acclaimed Japanese and Jamaican artists. The
+            albums featured Japanese artists Minako Yoshida, Ryuuichi Sakamoto,
+            Naoya Matsuoka, Shigeharu Mukai, and Akira Sakata, alongside
+            Jamaican artists Augustus Pablo, Sly & Robbie, The Wailers, Rico
+            Rodriguez, Carlton Barrett and Marcia Griffiths. These two albums
+            influenced both Japanese and Jamaican artists, and are regarded as
+            spreading reggae to Japan.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://jetsad.files.wordpress.com/2021/02/bob-marley-and-the-wailers-with-shin-miyoshi.png?w=923"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://pinkwafer.club/wp-content/uploads/2022/03/japanese-jazz-artists-e1646662640154.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Uniquely Developed Jazz Scene in Japan (Japanese Jazz)
+          </h6><br>
+          <p style="text-align: justify">
+            Japanese jazz refers to jazz music played by Japanese musicians, or
+            jazz music that is in some way connected to Japan or Japanese
+            culture. In a broader sense, the concept is often used to refer to
+            the history of jazz in Japan. Japan has, according to some
+            estimates, the largest proportion of jazz fans in the world.
+            Attempts at fusing jazz music with aspects of Japanese culture in
+            the United States are commonly termed Asian-American jazz. Japanese
+            jazz had frequently been criticized as derivative, or even as an
+            unworthy imitation of U.S. jazz, both by American and Japanese
+            commentators. In response to the belittling attitude of their
+            audience, Japanese jazz artists began adding a "national flavor" to
+            their work in the 1960s. Expatriate Toshiko Akiyoshi drew on
+            Japanese culture in compositions for the big band she co-led with
+            her husband and long-term collaborator Lew Tabackin.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            One of a Kind Music Style of Japan (Japanoise)
+          </h6><br>
+          <p style="text-align: justify">
+            Japanoise is a portmanteau of the words "Japanese" and "noise": a
+            term applied to the diverse, prolific, and influential noise music
+            scene of Japan. Primarily popular and active in the 1980s and 1990s
+            but still alive today, the Japanoise scene is defined by a
+            remarkable sense of musical freedom. Some of the most popular groups
+            range from the high-energy free improv stylings of Hijokaidan, the
+            punk demolition of Hanatarash and its subsequent psychedelic
+            Boredoms evolutions, to the tabletop electronics of Incapacitants
+            and Merzbow. Japanoise, and particularly harsh noise, as opposed to
+            some other post-industrial related styles, is often much less
+            aggressively "serious" image-based, being focused more on the sole
+            act of "jamming" as hard, loud or ridiculously as possible.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            width="100%"
+            src="https://doyouknowjapan.com/image/music/music6.jpg"
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 5th -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://ogre.natalie.mu/media/news/music/2021/0305/thepeggies_live3shot.jpg?impolicy=m&imwidth=750&imdensity=1"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Japanese Music is developed with Anime Evolution (Anime Music)
+          </h6><br>
+          <p style="text-align: justify">
+            The opening and credits sequences of most anime television episodes
+            are accompanied by Japanese pop or rock songs, often by reputed
+            bands. They may be written with the series in mind, but are also
+            aimed at the general music market, and therefore often allude only
+            vaguely or not at all to the themes or plot of the series. Pop and
+            rock songs are also sometimes used as incidental music ("insert
+            songs") in an episode, often to highlight particularly important
+            scenes. More often than not, background music is employed as an
+            added flavor to series either to drive story plot lines or to simply
+            to decorate particular scenes and animated sequences. Furthermore,
+            some series offer all applied music available in the form of OST, or
+            original soundtracks.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 6th -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Attractive Music of Worldwide Famous Game Titles (Game Music)
+          </h6><br>
+          <p style="text-align: justify">
+            The first game to take credit for its music was Xevious, also
+            noteworthy for its deeply (at that time) constructed stories. Though
+            many games have had beautiful music to accompany their gameplay, one
+            of the most important games in the history of the video game music
+            is Dragon Quest. Koichi Sugiyama got involved in the project out of
+            pure curiosity and proved that games can have serious soundtracks.
+            Until his involvement, music and sounds were often neglected in the
+            development of video games and programmers with little musical
+            knowledge were forced to write the soundtracks as well. Undaunted by
+            technological limits, Sugiyama worked with only 8 part polyphony to
+            create a soundtrack that would not tire the player despite hours and
+            hours of gameplay. Another well-known author of video game music is
+            Nobuo Uematsu. Even Uematsu's earlier compositions for the game
+            series, Final Fantasy are being arranged for full orchestral score.
+          </p>
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://images.squarespace-cdn.com/content/v1/51484beee4b0c803aa4f2900/1401800737843-4SFCEEOSX0VT0UV70LF0/image-asset.jpeg"
+            width="100%"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Anime Section -->
+    <div
+      id="partners"
+      class="container-fluid pb-5"
+      style="background-color: rgb(31, 26, 26)"
+    >
+      <div class="row justify-content-evenly">
+        <div class="col-sm-12 text-center mt-5">
+          <h4 class="text-white">Anime Industry</h4>
+          <p class="text-secondary px-3 pb-2 pt-3 mx-5" style="text-align: justify">
+            Since the 2010s anime has become a global multibillion industry
+            setting a sales record in 2017 of ¥2.15 trillion ($19.8 billion),
+            driven largely by demand from overseas audiences. In 2019, Japan's
+            anime industry was valued at $24 billion a year with 48% of that
+            revenue coming from overseas (which is now its largest industry
+            sector). By 2025 the anime industry is expected to reach a value of
+            $30 billion with over 60% of that revenue to come from overseas.
+          </p>
+        </div>
+        <!-- Big Daddy -->
+      <div class="col-md-11 col-sm-11 mt-1" align="center">
+        <div class="embed-responsive-item embed-responsive-16by9">
+          <video
+            class="my-vid"
+            width="100%"
+            src="videos/Z-Kai Cross Road (English Subtitled)  4K.mp4"
+            controls
+            autoplay
+            muted
+            loop
+          ></video>
+        </div>
+        <p class="text-secondary mt-3">Crossroad / クロスロード。</p>
+      </div>
+      </div>
+      
+
+      <!-- Chotu Bhais -->
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-3">
+        <div class="col-md-4 mt-2 mb-4">
+          <div class="embed-responsive-item embed-responsive-16by9">
+            <video
+              class="my-vid mt-2"
+              width="100%"
+              src="videos/ANime page with controls.mp4.mp4"
+              controls
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <p class="text-secondary mt-3">Your Name / 君の名は。</p>
+        </div>
+        <div class="col-md-4 mt-2 mb-4">
+          <div class="embed-responsive-item embed-responsive-16by9">
+            <video
+              class="my-vid mt-2"
+              width="100%"
+              src="videos/ANime page with controls.mp4-2.mp4"
+              controls
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <p class="text-secondary mt-3">The Garden of Words / 言の葉の庭。</p>
+        </div>
+        <div class="col-md-4 mt-2 mb-4">
+          <div class="embed-responsive-item embed-responsive-16by9">
+            <video
+              class="my-vid mt-2"
+              width="100%"
+              src="videos/Grand Escape  A Weathering With You AMV.mp4"
+              controls
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <p class="text-secondary mt-3">Weathering with You / 天気の子。</p>
+        </div>
+      </div>
+      <hr class="my-4 text-dark" />
+      <!-- 1st -->
+      <div class="row justify-content-evenly py-1 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-1 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.superprof.co.in/blog/wp-content/uploads/2019/08/miika-laaksonen-nUL9aPgGvgM-unsplash.jpg"
+            width="100%"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-1 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Why is Anime & Manga so popular in Japan?
+          </h6><br>
+          <p class="text-white" style="text-align: justify">
+            In the west, we associate anime with Japan and – almost – Japan with
+            anime. It’s a massive part of their cultural industry – and is
+            perhaps the country’s third-largest industry. This makes it,
+            obviously, pretty mega, bringing in nearly twenty billion dollars a
+            year.
+            <br /><br />
+            Yet, the success of anime across the world is one of the most
+            amazing things about this genre. Apparently, sixty percent of all
+            animated television shows across the world come from Japan. The
+            anime industry in China is absolutely huge, whilst, in the west,
+            various channels and services distributing anime have made it ever
+            more popular.
+            <br /><br />
+            Over the years, channels like Cartoon Network – with Adult Swim and
+            Toonami – and now anime streaming sites such as Crunchyroll and
+            Funimation have brought this medium to an ever-growing audience.
+            These days, over one hundred thousand people attend America’s annual
+            anime convention.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">Anime in Japanese Culture</h6><br>
+          <p class="text-white" style="text-align: justify">
+            Yet, so the history goes, Japanese anime was originally marketed
+            incredibly aggressively to a global audience – precisely because
+            there weren’t enough anime fans in Japan.
+            <br /><br />
+            But, now, anime is pretty much everywhere in that country. In 2014,
+            2015, and 2016, six of the ten highest-grossing movies were anime,
+            whilst Spirited Away remains the biggest-selling film in Japan.
+            Seventy percent of Japanese DVD sales are also anime.
+            <br /><br />
+            Anime is visible everywhere. In adverts, in branding for water and
+            snacks, on trains, school buses, and in airports. It has become a
+            ubiquitous cultural force that has come to define the country
+            itself.
+            <br /><br />
+            Yet, it goes without saying that not everyone likes it. And, even in
+            the world of anime, many people are concerned about the
+            commercialisation of the form. With every successful anime
+            undergoing adaptation into a light novel, a live action film, video
+            games, merchandise, music, and manga, the industry is sort of all
+            encompassing.
+            <br /><br />
+            In the same way that Disney makes a lot of the products that it
+            sells alongside the films themselves – there is a Pokémon theme park
+            just as there is a Disneyland – anime does the same.
+            <br /><br />
+            And I’m sure you’ll agree that not everyone likes Disney.
+          </p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://www.superprof.co.in/blog/wp-content/uploads/2019/08/gwen-ong-3OdajQGd9sk-unsplash.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://m.media-amazon.com/images/M/MV5BODRmZDVmNzUtZDA4ZC00NjhkLWI2M2UtN2M0ZDIzNDcxYThjL2ltYWdlXkEyXkFqcGdeQXVyNTk0MzMzODA@._V1_FMjpg_UX1000_.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Which are Japan’s Most Popular Anime?
+          </h6><br>
+          <p class="text-white" style="text-align: justify">
+            To identify a best anime, or even a most popular anime series, is a
+            difficult task. This is because there are anime for young girls
+            (known as shoujo anime), anime for teenage guys (shounen anime), and
+            animes also for adults.
+            <br /><br />
+            This is the key to the success of the anime industry in Japan. But
+            it also warns against treating anime like a monolithic thing.
+            <br /><br />
+            However, some anime are easy to point at and identify as extremely
+            popular. Take the films of Studio Ghibli – Princess Mononoke and
+            Spirited Away ­– which each in turn was the highest-grossing anime
+            film ever. Until Spirited Away came out in China in 2019, Your Name,
+            of 2016, was the biggest-selling anime film in Japan. So, this could
+            be said to be pretty popular too.
+            <br /><br /><br /><br /><br /><br /><br /><br />
+            <strong class="text-success">Makoto Shinkai</strong> is a Japanese
+            director, writer, producer, animator, editor, cinematographer, voice
+            actor, manga artist and former graphic designer. <br /><br />
+            Shinkai studied Japanese literature at Chuo University where he was
+            a member of juvenile literature club where he drew picture books. In
+            1999, Shinkai released She and Her Cat, a five-minute short piece
+            done in monochrome.
+            <br /><br />
+            His best knows films are The Place Promised in Our Early Days
+            (2004), 5 Centimeters Per Second (2007), Children Who Chase Lost
+            Voices (2011), The Garden of Words (2013), and Your Name (2016).
+            <br /><br />
+            His favorite anime is Castle in the Sky (1986) by Hayao Miyazaki.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">
+            Conventions, Celebrities, and Mainstream Cosplay
+          </h6><br>
+          <p class="text-white" style="text-align: justify">
+            Even with its massive modern following, the uninitiated may be
+            asking, what is cosplay exactly? Cosplay is the – now immensely
+            popular – activity of wearing self-made costumes to represent
+            beloved characters from various canon and fiction. Movies, TV shows,
+            comic books, video games, manga, anime and more are all sources of
+            inspiration for people that cosplay.
+            <br /><br />
+            The term cosplay itself, a contraction of costume and play, is
+            typically credited to Nobuyuki Takahashi when he used the phrase in
+            magazines back in 1984. Previously, the phrase ‘costuming’ was
+            commonly used for the activity, since it has been around for at
+            least 75 years at this point. It is believed that the history of
+            cosplay started in the USA with several annual masquerade balls held
+            at the science fiction themed Worldcon. It was at Worldcon in 1984,
+            that Nobuyuki Takahashi was said to have first come across the
+            concept and go on to coin the phrase ‘cosplay’.
+          </p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://soranews24.com/wp-content/uploads/sites/3/2022/01/Japanese-cosplayers-Comiket-winter-2021-cosplay-costumes-anime-manga-photos-1.jpg"
+            width="100%"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- Movie Section -->
+    <div id="partners" class="container-fluid pb-5" style="background-color: rgb(25, 21, 21)">
+      <div class="row justify-content-evenly">
+        <div class="col-sm-12 text-center mt-5 text-white">
+          <h4>Cinema Industry</h4>
+          <p class="text-secondary px-3 pb-1 pt-3" style="text-align: center">
+            Japanese cinema has always refused to embrace the values of
+            Hollywood. In so doing, it has produced some of the world's most
+            aesthetic and powerful films.
+          </p>
+        </div>
+      </div>
+      <div class="row justify-content-evenly text-center pt-3 pb-3 px-3">
+        <div class="col-md-6 mt-2 mb-4 px-3">
+          <div class="embed-responsive-item embed-responsive-16by9">
+            <video
+              class="my-vid mt-2"
+              width="100%"
+              src="videos/Kaguya-sama Love Is War Live Action Trailer.mp4"
+              controls
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <p class="text-secondary mt-4">Kaguya Sama Love is War / かぐや様は告らせたい ～天才たちの恋愛頭脳戦～。</p>
+        </div>
+        <div class="col-md-6 mt-2 mb-4 px-3">
+          <div class="embed-responsive-item embed-responsive-16by9">
+            <video
+              class="my-vid mt-2"
+              width="100%"
+              src="videos/Ribbon (2022) Japanese Movie Trailer English Subtitles (Ribbon　劇場予告篇　英語字幕).mp4"
+              controls
+              autoplay
+              muted
+              loop
+            ></video>
+          </div>
+          <p class="text-secondary mt-4">Ribbon / 劇場予告篇　英語字幕。</p>
+        </div>
+      </div>
+      <hr class="my-4 text-dark" />
+      <!-- 1st -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-2 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://d1bv4heaa2n05k.cloudfront.net/posts%2FDsHFY4rYayB3WXTAj%2F1509093677738-Untitled.jpg"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-2 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">Bright lights, new generation</h6><br>
+          <p class="text-white" style="text-align: justify">
+            Although filmmaking styles have been altered for scaled-down
+            financial resources and changing audience tastes, there's so much to
+            recommend in Japan's current generation of filmmakers. Suo
+            Masayuki's delightful Shall We Dance? (1996) was the
+            highest-grossing foreign-language film ever to play in US movie
+            theatres at the time.
+            <br /><br />
+            The anarchic, dark, violent and often funny ruminations by Takeshi
+            'Beat' Kitano – a tremendously successful and popular comedian,
+            actor, game-show host, raconteur and moviemaker – have won
+            international acclaim, particularly the alternately tender and
+            cataclysmic Hana-Bi (Fireworks), and Zatoichi, which won the Silver
+            Lion award at Venice in 2003, as well as Outrage, which competed for
+            the 2010 Palme d'Or in Cannes.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 2nd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">Nationalistic dramas</h6><br>
+          <p class="text-white" style="text-align: justify">
+            Japan's economic downturn of the 1990s produced even greater
+            box-office revenues. Much of this is due to foreign films such as
+            Titanic, but domestic product was also on the rise.
+            <br /><br />
+            Elsewhere there was scrutiny and criticism from the Japanese and
+            international media with another film, Unmei no Toki (Pride), a
+            big-budget, nationalistic biopic from director Ito Shunya that
+            sympathetically portrayed Japan's wartime prime minister, General
+            Tojo Hideki. A storm of controversy erupted around the region upon
+            the film's release. Asians were incensed that the man generally
+            considered to be the prime instigator of Japanese Asian aggression –
+            and the person responsible for what has become known as the Rape of
+            Nanjing – was depicted in the film to be battling for Asian
+            interests against Western imperialism. Pride was made for a huge (by
+            Japanese standards) US$11 million and starred the highly respected
+            actor Tsugawa Masahiko as Tojo.
+            <br /><br />
+            Japanese films about World War II have always veered wildly between
+            the powerfully pacifistic (Ichikawa Kon's harsh Fires on the Plain
+            and the stunningly emotional The Burmese Harp, also directed by
+            Ichikawa) and Jingoistic flag-waving. Often, war films try to have
+            it both ways, especially in recent war movies in which popular teen
+            idols, male and female, are cast in primary roles and then killed
+            off tragically.
+          </p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://s3.amazonaws.com/criterion-production/films/502207fa63950794ea49bda7dda0e95f/anaqzIt7khCv0N6cZqvmjKkivERYu6_large.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 3rd -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://i.mydramalist.com/LwKXxf.jpg"
+            width="85%"
+            alt=""
+          />
+        </div>
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">Hollywood's Japan</h6><br>
+          <p class="text-white" style="text-align: justify">
+            The claim that the Japanese enjoy nothing more than seeing
+            themselves through the eyes of the outside world is corroborated by
+            a glut of well-received Hollywood-made movies with Japanese
+            locations and subjects. Hollywood had been fascinated with Japan as
+            a setting for its dramas even before the 1958 John Wayne hit The
+            Barbarian and the Geisha, or the 007 thriller You Only Live Twice,
+            but the years around the turn of the millennium witnessed a Japan
+            boom that seems unstoppable.
+            <br /><br />
+            Memorable films include Ridley Scott's Black Rain (1989), filmed in
+            Osaka, where a thriving criminal underworld provided theme and
+            visual substance, and Paul Schrader's Mishima (1985), which looked
+            at the troubled but intriguing life of literary giant and right-wing
+            imperialist Yukio Mishima.
+            <br /><br />
+            Quentin Tarentino's 2003 Kill Bill Volume 1 and its sequel Kill Bill
+            Volume 2 were homages to the Japanese yakuza film; Tom Cruise's
+            portrayal of a transplanted Americal Civil War veteran in The Last
+            Samurai was a smash hit in Japan; Sophia Coppola's Oscar-winning
+            comedy Lost in Translation, which nevertheless received some
+            criticism for its dated view of the Japanese, was filmed almost
+            entirely in a Tokyo hotel and picked up an Oscar in 2003. The 2005
+            film version of Arthur Golden's novel Memoirs of a Geisha became a
+            hit in Japan, where it was released under the title of its main
+            character, Sayuri. Clint Eastwood's look at warfare from the
+            American and Japanese perspective in Flags of Our Fathers and
+            Letters from Iwo Jima (2006) are more sophisticated examples of how
+            Japan continues to inspire Hollywood.
+          </p>
+        </div>
+      </div>
+      <hr class="my-4 text-secondary" />
+
+      <!-- 4th -->
+      <div class="row justify-content-evenly py-2 px-3">
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2 text-white" align="left">
+          <h6 class="display-6 text-success">Contemporary film</h6><br>
+          <p class="text-white" style="text-align: justify">
+            The silver lining for Japan's silver screen after the erosion of the
+            studio system has been more freedom for independent directors.
+            Although many independent production companies have become
+            mainstream now, their works are among the best being made today.
+            Early film successes were Ichikawa Jun's Tokyo Lullaby and Iwai
+            Shunji's 1996 Swallowtail, a story about mindless materialism in a
+            fictional urban setting called Yen City. Addressing other
+            shortcomings of contemporary existence are a number of thoughtful
+            films by Kiyoshi Kurosawa, including the future-set Barren Illusion,
+            the 2000 film Charisma and the later Tokyo Sonata, which addresses
+            the dilemmas faced by an unemployed salaryman. His Journey to the
+            Shore, a story about love and death, won the Un Certain Regard Award
+            for Best Director at the 2015 Cannes Film Festival.
+            <br /><br />
+            Another serious take on society's shortcomings is Koreeda Hirokazu's
+            drama about children switched at birth, Like Father, Like Son, which
+            won the Jury Prize in Cannes in 2013. Kawase Naomi's Mourning Forest
+            won the prestigious Grand Prix at Cannes in 2007, her second
+            nomination for the award. Still the Water and Our Little Sister both
+            competed for the Palme d'Or at the Cannes Film Festival in 2014 and
+            2015 respectively.
+            <br /><br />
+            Other films with serious themes and excellent casts are Bad Company
+            (2001), the sombre I Just Didn't Do It (2006), All Around Us (2008)
+            and Yamada Yoji's About Her Brother (2010). Yojiro Takita's
+            life-affirming Departures, which took the prize for best foreign
+            film at the Oscars in 2009, is set in a funeral parlour in Yamagata
+            Prefecture. Narushima Izuru's award-winning Rebirth (2011), Ishii
+            Yuya's The Great Passage (2013) about a dictionary editor, and
+            Yamazaki Takashi's war drama The Eternal Zero (2013), depicting
+            Kamikaze pilots, are some of the best films produced in recent
+            years. Japanese directors are not renowned overseas for their
+            comedies, but there are some exemplary films, like Uchida Kenji's A
+            Stranger of Mine (2005), Naito Takasugu's The Dark Harbour (2009),
+            and Yoshida Daihachi's The Kirishima Thing (2012). Writer-director
+            Ogigami Naoko's 2010 feature Toilet, a light but delightful comedy
+            about values and bonding in an insecure world, was made entirely
+            English.
+          </p>
+        </div>
+
+        <div class="col-md-5 col-sm-12 mx-2 mt-4 mb-2">
+          <img
+            class="img-fluid stat-image"
+            src="https://flxt.tmsimg.com/assets/p10912359_p_v7_ad.jpg"
+            width="100%"
+            alt=""
+          />
+        </div>
+      </div>
+    </div>
+  
+    <!-- Reach us -->
+    <div id="reachus" class="container-fluid bg-dark embed-responsive">
+      <div class="row justify-content-evenly px-2 pt-3 pb-4">
+        <h5 class="display-6 text-center mt-2 mb-1 text-secondary">Reach <span class="text-danger">Us</span></h5>
+        <div
+          class="col-md-3 col-sm-5 mt-2 text-white"
+          style="text-align: justify"
+        >
+          <p class="mt-3 mb-2"><strong>Address:</strong></p>
+          <p class="text-secondary">
+            67 Kitanokamihakubaichō, Kita Ward, Kyoto, <br />603-8325, Japan
+          </p>
+          <br />
+          <p class="text-secondary">
+            Japan is one of the oldest civilizations and has a beautiful and
+            diverse history. The stunning, diverse scenery with mountains and
+            breathtaking views, which are much appreciated by the Japanese,
+            offers so many different experiences that attract tourists from all
+            corners of the world.
+          </p>
+
+          <p class="text-secondary">
+            Although Japan is accessible again, the country currently only
+            permits leisure tourists to come in organized groups rather than as
+            individuals.
+          </p>
+          <p class="text-secondary">
+            <span style="color: red">T O R I I</span> - Meaning a gateway to
+            spirituality, is designed for those to experince the rich tradition
+            and culture of Japan.
+          </p>
+        </div>
+        <div class="col-md-2 col-sm-5 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Socials:</strong></p>
+          <ul>
+            <li>
+              <a id="asocial" href="https://www.facebook.com/" target="_blank"
+                ><i class="fa-brands fa-facebook text-primary"></i> Facebook</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://www.instagram.com/" target="_blank"
+                ><i class="fa-brands fa-instagram text-danger"></i> Instagram</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://twitter.com/" target="_blank"
+                ><i class="fa-brands fa-twitter text-info"></i> Twitter</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://www.tumblr.com/login"
+                target="_blank"
+                ><i class="fa-brands fa-tumblr text-success"></i> Tumbler</a
+              >
+            </li>
+            <li>
+              <a
+                id="asocial"
+                href="https://in.pinterest.com/login/"
+                target="_blank"
+                ><i class="fa-brands fa-pinterest text-danger"></i> Pinterest</a
+              >
+            </li>
+            <li>
+              <a id="asocial" href="https://discord.com/" target="_blank"
+                ><i class="fa-brands fa-discord text-primary"></i> Discord</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-6 col-sm-12 mt-2 mb-2 text-white">
+          <p class="mt-3 mb-2"><strong>Google Maps:</strong></p>
+          <p class="text-secondary">
+            You can find us at this location
+            <i class="fa-solid fa-location-dot text-danger"></i>
+          </p>
+          <iframe
+            class="map"
+            width="90%"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1082.4466134648858!2d135.73211344923405!3d35.027248980068556!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60010793235431d5%3A0x342ba00cbeae2a33!2zSmFwYW4sIOOAkjYwMy04MzI1IEt5b3RvLCBLaXRhIFdhcmQsIEtpdGFub2thbWloYWt1YmFpY2jFjSwgNjcg5bCP6YeO6ICz6by75ZK95ZaJ56eR5Yy76Zmi!5e0!3m2!1sen!2sin!4v1659448890181!5m2!1sen!2sin"
+            width="600"
+            height="400"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div id="footer" class="container-fluid">
+      <div class="row justify-content-evenly px-2 pt-3">
+        <div class="col-sm-12">
+          <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bootstrap CDN for JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- JQuery Script tag for Animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- Popper for navbar dropdown -->
+  </body>
+</html>

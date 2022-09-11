@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>T O R I I</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <!-- External CSS -->
+    <link rel="stylesheet" href="css/login.css" />
+    <!-- Include Favicon -->
+    <link rel="icon" href="assets/favicon2.ico" />
+    <!-- To include Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/8e66b110d2.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!-- To Add navbar and all -->
+    <div class="container-fluid p-0">
+      <!-- Including the Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img
+              class="mx-3"
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="25px"
+              alt=""
+            />T O R I I - とりい</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <!-- To Align the Elements to the Right -->
+            <div class="m-auto"></div>
+            <ul class="navbar-nav">
+              <!-- <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Home
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a class="dropdown-item text-white" href="index.html"
+                      >Home・ホーム</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="culture.html">Culture</a>
+                </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Culture
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="culture.html"
+                      >Culture・カルチャー</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <!-- <li class="nav-item">
+                  <a class="nav-link" href="#">Entertainment</a>
+                </li> -->
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Entertainment
+                </a>
+                <ul class="dropdown-menu bg-dark">
+                  <li>
+                    <a
+                      class="dropdown-item text-white"
+                      href="entertainment.html"
+                      >Entertainment・エンタテーンメント</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="blog.html">Blog・ブログ</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="register.html">Register・レジスター</a>
+              </li>
+              <!-- To include navbar dropdown -->
+              <!-- <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Action</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  </ul>
+                </li> -->
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+
+    <form action="passlogin" method="post">
+      <div class="container-fluid p-0 m-0">
+        <!-- the actual content -->
+        <br /><br /><br /><br />
+        <div class="container-fluid details">
+          <h1 class="text-center text-dark display-5 test">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/619/619044.png"
+              width="70px"
+              alt="Icon"
+            />
+            T O R I I
+          </h1>
+          <p class="motto" align="center">your gateway to a getaway</p>
+          <div class="row justify-content-evenly px-3 py-3">
+            <!-- Login -->
+            <div class="col-md-7 col-sm-12 mx-1 my-3 bg-white rounded">
+               <div class="mt-5" align="center"> <img src="assets/dumplings.jpg" width="40%" alt="" align="center"></div>
+              <p class="h3 my-3 mx-3 text-secondary">Login</p>
+              <!-- <p class="text-secondary mx-3">Enter your e-mail: </p> -->
+              <div class="form-floating mx-3 mt-1 mb-4">
+                <input
+                  type="text"
+                  class="form-control"
+                  name="passuser"
+                  placeholder="name@example.com"
+                  required
+                />
+                <label for="floatingInput"
+                  ><p class="text-secondary">Enter username</p></label
+                >
+              </div>
+              <!-- <p class="text-secondary mx-3">Enter your password: </p> -->
+              <div class="form-floating mx-3 mt-1 mb-4">
+                <input
+                  type="password"
+                  class="form-control"
+                   name="passpassword"
+                  placeholder="Password"
+                  required
+                />
+                <label for="floatingPassword"
+                  ><p class="text-secondary">Password</p></label
+                >
+              </div>
+              <br />
+              <div class="d-grid gap-1">
+                <input class="rounded btn btn-success mx-5 mb-2" role="status" type="submit" value="Login・ロギン">
+              </div><br>
+              <div class="d-grid gap-2" align="center">
+                <a href="register.html" class="text-secondary mb-4" style="text-decoration: none;">New user? Sign up here!</a>
+              </div>
+            </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <div id="footer" class="container-fluid fixed-bottom mt-5">
+          <div class="row justify-content-evenly px-2 pt-3">
+            <div class="col-sm-12">
+              <p class="text-center">© 2022 Copyright: T O R I I - AVGP</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

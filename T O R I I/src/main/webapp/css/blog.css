@@ -1,0 +1,58 @@
+.vid {
+  border-radius: 20px;
+  box-shadow: 15px 15px 15px black;
+}
+
+#footer {
+  background-color: black;
+  color: rgb(163, 163, 163);
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+.card {
+  box-shadow: 6px 6px 25px grey;
+}
+#packages .card {
+  box-shadow: 16px 16px 25px black;
+}
+.bg-shad {
+  box-shadow: 6px 6px 25px grey;
+  border-radius: 30px;
+}
+#partner {
+  box-shadow: 5px 5px 20px grey;
+  border-radius: 20px;
+}
+.welcome4 {
+  background-image: url(../assets/cherry3.jpg);
+  background-size: cover;
+  background-position: 1px;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 30px grey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.map,
+.stat-image {
+  border-radius: 20px;
+  box-shadow: 12px 12px 25px black;
+}
+.welcome1 {
+  background-image: url(../assets/cherry2.jpg);
+  background-size: cover;
+  background-position: 1px;
+  background-repeat: no-repeat;
+  box-shadow: 2px 2px 30px grey;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+#asocial {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style-type: none;
+}
+.carousel-inner {
+  box-shadow: 7px 7px 20px black;
+}
